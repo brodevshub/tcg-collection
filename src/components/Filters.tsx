@@ -31,7 +31,7 @@ export function Filters({ filters, onChange, idiomas, resultCount }: Props) {
       >
         <option value="all">Todas</option>
         <option value="tengo">Las que tengo</option>
-        <option value="quiero">Las que quiero</option>
+        <option value="faltan">Las que me faltan</option>
       </select>
       <select value={filters.idioma} onChange={(e) => onChange({ ...filters, idioma: e.target.value })}>
         <option value="all">Todos los idiomas</option>

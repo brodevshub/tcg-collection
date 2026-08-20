@@ -102,7 +102,6 @@ export function CardDetail({ card, onClose, onToggleIdioma }: Props) {
             </dd>
           </div>
         </dl>
-        {card.laQuiero && <p className="aside-quiero">★ La quiero</p>}
         <div className="aside-actions">
           <span className={`estado ${card.laTengo ? 'estado-tengo' : ''}`}>
             {card.laTengo ? '✓ La tengo' : 'No la tengo'}

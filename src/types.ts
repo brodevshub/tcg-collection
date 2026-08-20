@@ -7,7 +7,6 @@ export interface Card {
   codigo: string
   numero: string | null
   laTengo: boolean
-  laQuiero: boolean
   idiomasDisponibles: string[]
   idiomasQueTengo: string[]
   cardmarketUrl: string
@@ -21,7 +20,7 @@ export type SortMode = 'orden-desc' | 'orden-asc' | 'precio-desc' | 'precio-asc'
 export interface FiltersState {
   search: string
   pokemon: 'all' | 'Charmander' | 'Charmeleon'
-  estado: 'all' | 'tengo' | 'quiero'
+  estado: 'all' | 'tengo' | 'faltan'
   idioma: string
   sort: SortMode
 }

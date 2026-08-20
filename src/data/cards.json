@@ -7,15 +7,12 @@
     "coleccion": "MEP Black Star Promos",
     "codigo": "MEP",
     "numero": "79",
-    "laTengo": true,
-    "laQuiero": true,
+    "laTengo": false,
     "idiomasDisponibles": [
       "🇬🇧",
       "🇪🇸"
     ],
-    "idiomasQueTengo": [
-      "🇪🇸"
-    ],
+    "idiomasQueTengo": [],
     "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/MEP-Black-Star-Promos/Charmeleon-MEP079",
     "precioMin": 0.2
   },
@@ -28,7 +25,6 @@
     "codigo": "MEP",
     "numero": "38",
     "laTengo": true,
-    "laQuiero": false,
     "idiomasDisponibles": [
       "🇬🇧",
       "🇪🇸"
@@ -48,7 +44,6 @@
     "codigo": "xASC",
     "numero": "21",
     "laTengo": true,
-    "laQuiero": false,
     "idiomasDisponibles": [
       "🇬🇧",
       "🇪🇸"
@@ -68,7 +63,6 @@
     "codigo": "xASC",
     "numero": "21",
     "laTengo": true,
-    "laQuiero": false,
     "idiomasDisponibles": [
       "🇬🇧",
       "🇪🇸"
@@ -88,7 +82,6 @@
     "codigo": "xASC",
     "numero": "20",
     "laTengo": true,
-    "laQuiero": false,
     "idiomasDisponibles": [
       "🇬🇧",
       "🇪🇸"
@@ -108,7 +101,6 @@
     "codigo": "xASC",
     "numero": "20",
     "laTengo": true,
-    "laQuiero": false,
     "idiomasDisponibles": [
       "🇬🇧",
       "🇪🇸"
@@ -128,7 +120,6 @@
     "codigo": "xASC",
     "numero": "20",
     "laTengo": true,
-    "laQuiero": false,
     "idiomasDisponibles": [
       "🇬🇧",
       "🇪🇸"
@@ -148,7 +139,6 @@
     "codigo": "ASC",
     "numero": "21",
     "laTengo": true,
-    "laQuiero": false,
     "idiomasDisponibles": [
       "🇬🇧",
       "🇪🇸"
@@ -168,7 +158,6 @@
     "codigo": "ASC",
     "numero": "20",
     "laTengo": true,
-    "laQuiero": false,
     "idiomasDisponibles": [
       "🇬🇧",
       "🇪🇸"
@@ -188,7 +177,6 @@
     "codigo": "PFL",
     "numero": "12",
     "laTengo": true,
-    "laQuiero": false,
     "idiomasDisponibles": [
       "🇬🇧",
       "🇪🇸"
@@ -208,7 +196,6 @@
     "codigo": "PFL",
     "numero": "11",
     "laTengo": true,
-    "laQuiero": false,
     "idiomasDisponibles": [
       "🇬🇧",
       "🇪🇸"
@@ -228,7 +215,6 @@
     "codigo": "SV-P/CS",
     "numero": "67",
     "laTengo": false,
-    "laQuiero": true,
     "idiomasDisponibles": [
       "🇨🇳"
     ],
@@ -245,7 +231,6 @@
     "codigo": "MEW",
     "numero": "169",
     "laTengo": false,
-    "laQuiero": true,
     "idiomasDisponibles": [
       "🇬🇧",
       "🇪🇸"
@@ -263,7 +248,6 @@
     "codigo": "MEW",
     "numero": "5",
     "laTengo": false,
-    "laQuiero": true,
     "idiomasDisponibles": [
       "🇬🇧",
       "🇪🇸"
@@ -281,7 +265,6 @@
     "codigo": "MEW",
     "numero": "5",
     "laTengo": true,
-    "laQuiero": false,
     "idiomasDisponibles": [
       "🇬🇧",
       "🇪🇸"
@@ -299,7 +282,6 @@
     "codigo": "CS5aC",
     "numero": "2",
     "laTengo": false,
-    "laQuiero": true,
     "idiomasDisponibles": [
       "🇨🇳"
     ],
@@ -316,7 +298,6 @@
     "codigo": "CS5aC",
     "numero": "1",
     "laTengo": false,
-    "laQuiero": true,
     "idiomasDisponibles": [
       "🇨🇳"
     ],
@@ -333,7 +314,6 @@
     "codigo": "PAF",
     "numero": "110",
     "laTengo": true,
-    "laQuiero": false,
     "idiomasDisponibles": [
       "🇬🇧",
       "🇪🇸"
@@ -353,7 +333,6 @@
     "codigo": "PAF",
     "numero": "109",
     "laTengo": false,
-    "laQuiero": true,
     "idiomasDisponibles": [
       "🇬🇧",
       "🇪🇸"
@@ -371,7 +350,6 @@
     "codigo": "OBF",
     "numero": "27",
     "laTengo": true,
-    "laQuiero": false,
     "idiomasDisponibles": [
       "🇬🇧",
       "🇪🇸"
@@ -391,7 +369,6 @@
     "codigo": "OBF",
     "numero": "27",
     "laTengo": true,
-    "laQuiero": false,
     "idiomasDisponibles": [
       "🇬🇧",
       "🇪🇸"
@@ -411,7 +388,6 @@
     "codigo": "OBF",
     "numero": "26",
     "laTengo": true,
-    "laQuiero": false,
     "idiomasDisponibles": [
       "🇬🇧",
       "🇪🇸"
@@ -429,7 +405,6 @@
     "codigo": "OBF",
     "numero": "26",
     "laTengo": true,
-    "laQuiero": false,
     "idiomasDisponibles": [
       "🇬🇧",
       "🇪🇸"
@@ -447,7 +422,6 @@
     "codigo": "MFB",
     "numero": null,
     "laTengo": true,
-    "laQuiero": false,
     "idiomasDisponibles": [
       "🇬🇧",
       "🇪🇸"
@@ -465,7 +439,6 @@
     "codigo": "MFB",
     "numero": null,
     "laTengo": false,
-    "laQuiero": true,
     "idiomasDisponibles": [
       "🇬🇧",
       "🇪🇸"
@@ -483,7 +456,6 @@
     "codigo": "SVP",
     "numero": "47",
     "laTengo": false,
-    "laQuiero": true,
     "idiomasDisponibles": [
       "🇬🇧",
       "🇪🇸"
@@ -501,7 +473,6 @@
     "codigo": "MEW",
     "numero": "168",
     "laTengo": true,
-    "laQuiero": false,
     "idiomasDisponibles": [
       "🇬🇧",
       "🇪🇸"
@@ -521,7 +492,6 @@
     "codigo": "MEW",
     "numero": "4",
     "laTengo": false,
-    "laQuiero": true,
     "idiomasDisponibles": [
       "🇬🇧",
       "🇪🇸"
@@ -539,7 +509,6 @@
     "codigo": "MEW",
     "numero": "4",
     "laTengo": false,
-    "laQuiero": true,
     "idiomasDisponibles": [
       "🇬🇧",
       "🇪🇸"
@@ -557,7 +526,6 @@
     "codigo": "SVP",
     "numero": "44",
     "laTengo": true,
-    "laQuiero": false,
     "idiomasDisponibles": [
       "🇬🇧",
       "🇪🇸"
@@ -577,7 +545,6 @@
     "codigo": "sv2a",
     "numero": "169",
     "laTengo": false,
-    "laQuiero": true,
     "idiomasDisponibles": [
       "🇯🇵",
       "🇰🇷",
@@ -598,7 +565,6 @@
     "codigo": "sv2a",
     "numero": "5",
     "laTengo": false,
-    "laQuiero": true,
     "idiomasDisponibles": [
       "🇯🇵",
       "🇰🇷",
@@ -619,7 +585,6 @@
     "codigo": "sv2a",
     "numero": "5",
     "laTengo": true,
-    "laQuiero": false,
     "idiomasDisponibles": [
       "🇯🇵",
       "🇰🇷",
@@ -643,7 +608,6 @@
     "codigo": "sv2a",
     "numero": "168",
     "laTengo": true,
-    "laQuiero": false,
     "idiomasDisponibles": [
       "🇯🇵",
       "🇰🇷",
@@ -666,7 +630,6 @@
     "codigo": "sv2a",
     "numero": "4",
     "laTengo": true,
-    "laQuiero": false,
     "idiomasDisponibles": [
       "🇯🇵",
       "🇰🇷",
@@ -689,7 +652,6 @@
     "codigo": "sv2a",
     "numero": "4",
     "laTengo": true,
-    "laQuiero": false,
     "idiomasDisponibles": [
       "🇯🇵",
       "🇰🇷",
@@ -713,7 +675,6 @@
     "codigo": "SWSH",
     "numero": "232",
     "laTengo": true,
-    "laQuiero": false,
     "idiomasDisponibles": [
       "🇬🇧",
       "🇪🇸"
@@ -733,7 +694,6 @@
     "codigo": "PGO",
     "numero": "9",
     "laTengo": true,
-    "laQuiero": false,
     "idiomasDisponibles": [
       "🇬🇧",
       "🇪🇸"
@@ -753,7 +713,6 @@
     "codigo": "PGO",
     "numero": "9",
     "laTengo": true,
-    "laQuiero": false,
     "idiomasDisponibles": [
       "🇬🇧",
       "🇪🇸"
@@ -773,7 +732,6 @@
     "codigo": "PGO",
     "numero": "8",
     "laTengo": true,
-    "laQuiero": false,
     "idiomasDisponibles": [
       "🇬🇧",
       "🇪🇸"
@@ -793,7 +751,6 @@
     "codigo": "PGO",
     "numero": "8",
     "laTengo": true,
-    "laQuiero": false,
     "idiomasDisponibles": [
       "🇬🇧",
       "🇪🇸"
@@ -813,7 +770,6 @@
     "codigo": "VIV",
     "numero": "24",
     "laTengo": true,
-    "laQuiero": false,
     "idiomasDisponibles": [
       "🇬🇧",
       "🇪🇸"
@@ -831,7 +787,6 @@
     "codigo": "VIV",
     "numero": "23",
     "laTengo": true,
-    "laQuiero": false,
     "idiomasDisponibles": [
       "🇬🇧",
       "🇪🇸"
@@ -849,7 +804,6 @@
     "codigo": "HIF",
     "numero": "8",
     "laTengo": true,
-    "laQuiero": false,
     "idiomasDisponibles": [
       "🇬🇧",
       "🇪🇸"
@@ -867,7 +821,6 @@
     "codigo": "HIF",
     "numero": "SV7",
     "laTengo": false,
-    "laQuiero": true,
     "idiomasDisponibles": [
       "🇬🇧",
       "🇪🇸"
@@ -885,7 +838,6 @@
     "codigo": "HIF",
     "numero": "SV6",
     "laTengo": false,
-    "laQuiero": true,
     "idiomasDisponibles": [
       "🇬🇧",
       "🇪🇸"
@@ -903,7 +855,6 @@
     "codigo": "HIF",
     "numero": "7",
     "laTengo": false,
-    "laQuiero": true,
     "idiomasDisponibles": [
       "🇬🇧",
       "🇪🇸"
@@ -921,7 +872,6 @@
     "codigo": "DET",
     "numero": "4",
     "laTengo": true,
-    "laQuiero": false,
     "idiomasDisponibles": [
       "🇬🇧",
       "🇪🇸"
@@ -941,7 +891,6 @@
     "codigo": "TEU",
     "numero": "13",
     "laTengo": true,
-    "laQuiero": false,
     "idiomasDisponibles": [
       "🇬🇧",
       "🇪🇸"
@@ -961,7 +910,6 @@
     "codigo": "TEU",
     "numero": "12",
     "laTengo": true,
-    "laQuiero": false,
     "idiomasDisponibles": [
       "🇬🇧",
       "🇪🇸"
@@ -981,7 +929,6 @@
     "codigo": "TEU",
     "numero": "11",
     "laTengo": false,
-    "laQuiero": true,
     "idiomasDisponibles": [
       "🇬🇧",
       "🇪🇸"
@@ -999,7 +946,6 @@
     "codigo": "DRM",
     "numero": "2",
     "laTengo": false,
-    "laQuiero": true,
     "idiomasDisponibles": [
       "🇬🇧",
       "🇪🇸"
@@ -1017,7 +963,6 @@
     "codigo": "DRM",
     "numero": "1",
     "laTengo": true,
-    "laQuiero": false,
     "idiomasDisponibles": [
       "🇬🇧",
       "🇪🇸"
@@ -1037,7 +982,6 @@
     "codigo": "BUS",
     "numero": "19",
     "laTengo": true,
-    "laQuiero": false,
     "idiomasDisponibles": [
       "🇬🇧",
       "🇪🇸"
@@ -1055,7 +999,6 @@
     "codigo": "BUS",
     "numero": "18a",
     "laTengo": false,
-    "laQuiero": true,
     "idiomasDisponibles": [
       "🇬🇧",
       "🇪🇸"
@@ -1073,7 +1016,6 @@
     "codigo": "BUS",
     "numero": "18",
     "laTengo": true,
-    "laQuiero": false,
     "idiomasDisponibles": [
       "🇬🇧",
       "🇪🇸"
@@ -1094,7 +1036,6 @@
     "codigo": "GEN",
     "numero": "RC4",
     "laTengo": false,
-    "laQuiero": true,
     "idiomasDisponibles": [
       "🇬🇧",
       "🇪🇸"
@@ -1112,7 +1053,6 @@
     "codigo": "GEN",
     "numero": "RC3",
     "laTengo": false,
-    "laQuiero": true,
     "idiomasDisponibles": [
       "🇬🇧",
       "🇪🇸"
@@ -1130,7 +1070,6 @@
     "codigo": "LTR",
     "numero": "18",
     "laTengo": false,
-    "laQuiero": true,
     "idiomasDisponibles": [],
     "idiomasQueTengo": [],
     "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Legendary-Treasures/Charmeleon-LTR18",
@@ -1145,7 +1084,6 @@
     "codigo": "LTR",
     "numero": "17",
     "laTengo": false,
-    "laQuiero": true,
     "idiomasDisponibles": [
       "🇬🇧"
     ],
@@ -1162,7 +1100,6 @@
     "codigo": "BCR",
     "numero": "19",
     "laTengo": false,
-    "laQuiero": true,
     "idiomasDisponibles": [
       "🇬🇧",
       "🇪🇸"
@@ -1180,7 +1117,6 @@
     "codigo": "BCR",
     "numero": "18",
     "laTengo": false,
-    "laQuiero": true,
     "idiomasDisponibles": [
       "🇬🇧",
       "🇪🇸"
@@ -1198,7 +1134,6 @@
     "codigo": "BW-P",
     "numero": "165",
     "laTengo": false,
-    "laQuiero": true,
     "idiomasDisponibles": [
       "🇯🇵",
       "🇰🇷",
@@ -1217,7 +1152,6 @@
     "codigo": "AR",
     "numero": "35",
     "laTengo": false,
-    "laQuiero": true,
     "idiomasDisponibles": [
       "🇬🇧"
     ],
@@ -1234,7 +1168,6 @@
     "codigo": "AR",
     "numero": "59",
     "laTengo": false,
-    "laQuiero": true,
     "idiomasDisponibles": [
       "🇬🇧"
     ],
@@ -1251,7 +1184,6 @@
     "codigo": "STF",
     "numero": "102",
     "laTengo": false,
-    "laQuiero": true,
     "idiomasDisponibles": [
       "🇬🇧",
       "🇪🇸"
@@ -1269,7 +1201,6 @@
     "codigo": "STF",
     "numero": "101",
     "laTengo": false,
-    "laQuiero": true,
     "idiomasDisponibles": [
       "🇬🇧",
       "🇪🇸"
@@ -1287,7 +1218,6 @@
     "codigo": "SW",
     "numero": "46",
     "laTengo": false,
-    "laQuiero": true,
     "idiomasDisponibles": [
       "🇬🇧",
       "🇪🇸"
@@ -1305,7 +1235,6 @@
     "codigo": "SW",
     "numero": "82",
     "laTengo": true,
-    "laQuiero": false,
     "idiomasDisponibles": [
       "🇬🇧",
       "🇪🇸"
@@ -1325,7 +1254,6 @@
     "codigo": "POP5",
     "numero": "5",
     "laTengo": false,
-    "laQuiero": true,
     "idiomasDisponibles": [
       "🇬🇧"
     ],
@@ -1342,7 +1270,6 @@
     "codigo": "POP5",
     "numero": "10",
     "laTengo": false,
-    "laQuiero": true,
     "idiomasDisponibles": [
       "🇬🇧"
     ],
@@ -1359,7 +1286,6 @@
     "codigo": "PK",
     "numero": "28",
     "laTengo": false,
-    "laQuiero": true,
     "idiomasDisponibles": [
       "🇬🇧"
     ],
@@ -1376,7 +1302,6 @@
     "codigo": "PK",
     "numero": "48",
     "laTengo": true,
-    "laQuiero": false,
     "idiomasDisponibles": [
       "🇬🇧"
     ],
@@ -1395,7 +1320,6 @@
     "codigo": "DP-P",
     "numero": "124",
     "laTengo": false,
-    "laQuiero": true,
     "idiomasDisponibles": [
       "🇯🇵",
       "🇰🇷",
@@ -1414,7 +1338,6 @@
     "codigo": "CG",
     "numero": "30",
     "laTengo": false,
-    "laQuiero": true,
     "idiomasDisponibles": [
       "🇬🇧"
     ],
@@ -1431,7 +1354,6 @@
     "codigo": "CG",
     "numero": "29",
     "laTengo": false,
-    "laQuiero": true,
     "idiomasDisponibles": [
       "🇬🇧"
     ],
@@ -1448,7 +1370,6 @@
     "codigo": "CG",
     "numero": "49",
     "laTengo": true,
-    "laQuiero": false,
     "idiomasDisponibles": [
       "🇬🇧"
     ],
@@ -1467,7 +1388,6 @@
     "codigo": "CG",
     "numero": "48",
     "laTengo": false,
-    "laQuiero": true,
     "idiomasDisponibles": [
       "🇬🇧"
     ],
@@ -1484,7 +1404,6 @@
     "codigo": "DS",
     "numero": "61",
     "laTengo": false,
-    "laQuiero": true,
     "idiomasDisponibles": [
       "🇬🇧"
     ],
@@ -1501,7 +1420,6 @@
     "codigo": "DS",
     "numero": "37",
     "laTengo": false,
-    "laQuiero": true,
     "idiomasDisponibles": [
       "🇬🇧"
     ],
@@ -1518,7 +1436,6 @@
     "codigo": "TRR",
     "numero": "110",
     "laTengo": false,
-    "laQuiero": true,
     "idiomasDisponibles": [
       "🇬🇧"
     ],
@@ -1535,7 +1452,6 @@
     "codigo": "FL",
     "numero": "31",
     "laTengo": true,
-    "laQuiero": false,
     "idiomasDisponibles": [
       "🇬🇧"
     ],
@@ -1552,7 +1468,6 @@
     "codigo": "FL",
     "numero": "113",
     "laTengo": false,
-    "laQuiero": true,
     "idiomasDisponibles": [
       "🇬🇧"
     ],
@@ -1569,7 +1484,6 @@
     "codigo": "FL",
     "numero": "58",
     "laTengo": true,
-    "laQuiero": false,
     "idiomasDisponibles": [
       "🇬🇧"
     ],
@@ -1586,7 +1500,6 @@
     "codigo": "FL",
     "numero": "57",
     "laTengo": false,
-    "laQuiero": true,
     "idiomasDisponibles": [
       "🇬🇧"
     ],
@@ -1603,7 +1516,6 @@
     "codigo": "DR",
     "numero": "99",
     "laTengo": false,
-    "laQuiero": true,
     "idiomasDisponibles": [
       "🇬🇧"
     ],
@@ -1620,7 +1532,6 @@
     "codigo": "DR",
     "numero": "98",
     "laTengo": false,
-    "laQuiero": true,
     "idiomasDisponibles": [
       "🇬🇧"
     ],
@@ -1637,7 +1548,6 @@
     "codigo": "EX",
     "numero": "73",
     "laTengo": false,
-    "laQuiero": true,
     "idiomasDisponibles": [
       "🇬🇧"
     ],
@@ -1654,7 +1564,6 @@
     "codigo": "EX",
     "numero": "98",
     "laTengo": false,
-    "laQuiero": true,
     "idiomasDisponibles": [
       "🇬🇧"
     ],
@@ -1671,7 +1580,6 @@
     "codigo": "EX",
     "numero": "97",
     "laTengo": false,
-    "laQuiero": true,
     "idiomasDisponibles": [
       "🇬🇧"
     ],
@@ -1688,7 +1596,6 @@
     "codigo": "MCDP",
     "numero": "4",
     "laTengo": false,
-    "laQuiero": true,
     "idiomasDisponibles": [
       "🇯🇵"
     ],
@@ -1705,7 +1612,6 @@
     "codigo": "T-P",
     "numero": "11",
     "laTengo": false,
-    "laQuiero": true,
     "idiomasDisponibles": [
       "🇯🇵",
       "🇰🇷",
@@ -1724,7 +1630,6 @@
     "codigo": "WEB",
     "numero": "7",
     "laTengo": false,
-    "laQuiero": true,
     "idiomasDisponibles": [
       "🇯🇵",
       "🇰🇷",
@@ -1743,7 +1648,6 @@
     "codigo": "WEB",
     "numero": "22",
     "laTengo": false,
-    "laQuiero": true,
     "idiomasDisponibles": [
       "🇯🇵",
       "🇰🇷",
@@ -1762,7 +1666,6 @@
     "codigo": "GC",
     "numero": "31",
     "laTengo": true,
-    "laQuiero": false,
     "idiomasDisponibles": [
       "🇬🇧"
     ],
@@ -1781,7 +1684,6 @@
     "codigo": "GC",
     "numero": "60",
     "laTengo": true,
-    "laQuiero": false,
     "idiomasDisponibles": [
       "🇬🇧"
     ],
@@ -1800,7 +1702,6 @@
     "codigo": "GH",
     "numero": "61",
     "laTengo": false,
-    "laQuiero": true,
     "idiomasDisponibles": [
       "🇬🇧"
     ],
@@ -1817,7 +1718,6 @@
     "codigo": "TR",
     "numero": "32",
     "laTengo": true,
-    "laQuiero": false,
     "idiomasDisponibles": [
       "🇬🇧"
     ],
@@ -1836,7 +1736,6 @@
     "codigo": "TR",
     "numero": "50",
     "laTengo": true,
-    "laQuiero": false,
     "idiomasDisponibles": [
       "🇬🇧"
     ],
@@ -1855,7 +1754,6 @@
     "codigo": "BS",
     "numero": "24",
     "laTengo": true,
-    "laQuiero": false,
     "idiomasDisponibles": [
       "🇬🇧",
       "🇪🇸"
@@ -1875,7 +1773,6 @@
     "codigo": "BS",
     "numero": "46",
     "laTengo": true,
-    "laQuiero": false,
     "idiomasDisponibles": [
       "🇬🇧",
       "🇪🇸"
@@ -1895,7 +1792,6 @@
     "codigo": "EXS",
     "numero": null,
     "laTengo": false,
-    "laQuiero": true,
     "idiomasDisponibles": [
       "🇯🇵"
     ],
@@ -1912,7 +1808,6 @@
     "codigo": "UNP",
     "numero": null,
     "laTengo": false,
-    "laQuiero": true,
     "idiomasDisponibles": [
       "🇯🇵",
       "🇰🇷",

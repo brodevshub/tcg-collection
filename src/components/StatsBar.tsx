@@ -6,7 +6,7 @@ const euros = (n: number) =>
 export function StatsBar({ cards }: { cards: Card[] }) {
   const total = cards.length
   const tengo = cards.filter((c) => c.laTengo)
-  const quiero = cards.filter((c) => c.laQuiero)
+  const faltan = cards.filter((c) => !c.laTengo)
   const pct = total === 0 ? 0 : Math.round((tengo.length / total) * 100)
   const suma = (list: Card[]) => list.reduce((acc, c) => acc + (c.precioMin ?? 0), 0)
 
@@ -22,10 +22,10 @@ export function StatsBar({ cards }: { cards: Card[] }) {
         <span className="stat-label">Las tengo</span>
         <span className="stat-price">{euros(suma(tengo))}</span>
       </div>
-      <div className="stat stat-quiero">
-        <span className="stat-value">{quiero.length}</span>
-        <span className="stat-label">Las quiero</span>
-        <span className="stat-price">{euros(suma(quiero))}</span>
+      <div className="stat stat-faltan">
+        <span className="stat-value">{faltan.length}</span>
+        <span className="stat-label">Me faltan</span>
+        <span className="stat-price">{euros(suma(faltan))}</span>
       </div>
       <div className="stat">
         <span className="stat-value">{pct}%</span>

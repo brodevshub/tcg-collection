@@ -86,7 +86,7 @@ body {
   color: var(--owned);
 }
 
-.stat-quiero .stat-value {
+.stat-faltan .stat-value {
   color: var(--want);
 }
 
@@ -349,12 +349,6 @@ body {
 .aside-precio {
   color: var(--fire-soft);
   font-weight: 600;
-}
-
-.aside-quiero {
-  margin: 0;
-  color: var(--want);
-  font-size: 0.95rem;
 }
 
 .aside-actions {

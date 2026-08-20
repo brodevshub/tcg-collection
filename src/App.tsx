@@ -44,7 +44,7 @@ export default function App() {
     const result = cards.filter((card) => {
       if (filters.pokemon !== 'all' && card.pokemon !== filters.pokemon) return false
       if (filters.estado === 'tengo' && !card.laTengo) return false
-      if (filters.estado === 'quiero' && !card.laQuiero) return false
+      if (filters.estado === 'faltan' && card.laTengo) return false
       if (filters.idioma !== 'all' && !card.idiomasDisponibles.includes(filters.idioma)) return false
       if (q) {
         const haystack = `${card.nombre} ${card.coleccion} ${card.codigo} ${card.numero ?? ''}`.toLowerCase()
