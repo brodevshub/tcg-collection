@@ -14,7 +14,8 @@
       "🇪🇸"
     ],
     "idiomasQueTengo": [],
-    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/MEP-Black-Star-Promos/Charmeleon-MEP079"
+    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/MEP-Black-Star-Promos/Charmeleon-MEP079",
+    "precioMin": 0.25
   },
   {
     "id": "mep-black-star-promos-charmander-mep038",
@@ -33,7 +34,8 @@
     "idiomasQueTengo": [
       "🇪🇸"
     ],
-    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/MEP-Black-Star-Promos/Charmander-MEP038"
+    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/MEP-Black-Star-Promos/Charmander-MEP038",
+    "precioMin": 22
   },
   {
     "id": "ascended-heroes-additionals-charmeleon-v2-xasc021",
@@ -52,7 +54,8 @@
     "idiomasQueTengo": [
       "🇪🇸"
     ],
-    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Ascended-Heroes-Additionals/Charmeleon-V2-xASC021"
+    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Ascended-Heroes-Additionals/Charmeleon-V2-xASC021",
+    "precioMin": 0.04
   },
   {
     "id": "ascended-heroes-additionals-charmeleon-v1-xasc021",
@@ -71,7 +74,8 @@
     "idiomasQueTengo": [
       "🇪🇸"
     ],
-    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Ascended-Heroes-Additionals/Charmeleon-V1-xASC021"
+    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Ascended-Heroes-Additionals/Charmeleon-V1-xASC021",
+    "precioMin": 0.05
   },
   {
     "id": "ascended-heroes-additionals-charmander-v2-xasc020",
@@ -90,7 +94,8 @@
     "idiomasQueTengo": [
       "🇪🇸"
     ],
-    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Ascended-Heroes-Additionals/Charmander-V2-xASC020"
+    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Ascended-Heroes-Additionals/Charmander-V2-xASC020",
+    "precioMin": 0.03
   },
   {
     "id": "ascended-heroes-additionals-charmander-v3-xasc020",
@@ -109,7 +114,8 @@
     "idiomasQueTengo": [
       "🇪🇸"
     ],
-    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Ascended-Heroes-Additionals/Charmander-V3-xASC020"
+    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Ascended-Heroes-Additionals/Charmander-V3-xASC020",
+    "precioMin": 0.02
   },
   {
     "id": "ascended-heroes-additionals-charmander-v1-xasc020",
@@ -128,7 +134,8 @@
     "idiomasQueTengo": [
       "🇪🇸"
     ],
-    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Ascended-Heroes-Additionals/Charmander-V1-xASC020"
+    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Ascended-Heroes-Additionals/Charmander-V1-xASC020",
+    "precioMin": 0.06
   },
   {
     "id": "ascended-heroes-charmeleon-asc021",
@@ -147,7 +154,8 @@
     "idiomasQueTengo": [
       "🇪🇸"
     ],
-    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Ascended-Heroes/Charmeleon-ASC021"
+    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Ascended-Heroes/Charmeleon-ASC021",
+    "precioMin": 0.02
   },
   {
     "id": "ascended-heroes-charmander-asc020",
@@ -166,7 +174,8 @@
     "idiomasQueTengo": [
       "🇪🇸"
     ],
-    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Ascended-Heroes/Charmander-ASC020"
+    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Ascended-Heroes/Charmander-ASC020",
+    "precioMin": 0.02
   },
   {
     "id": "phantasmal-flames-charmeleon-pfl012",
@@ -185,7 +194,8 @@
     "idiomasQueTengo": [
       "🇪🇸"
     ],
-    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Phantasmal-Flames/Charmeleon-PFL012"
+    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Phantasmal-Flames/Charmeleon-PFL012",
+    "precioMin": 0.03
   },
   {
     "id": "phantasmal-flames-charmander-pfl011",
@@ -204,7 +214,8 @@
     "idiomasQueTengo": [
       "🇪🇸"
     ],
-    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Phantasmal-Flames/Charmander-PFL011"
+    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Phantasmal-Flames/Charmander-PFL011",
+    "precioMin": 0.02
   },
   {
     "id": "scarlet-violet-simplified-chinese-promos-charmander-v1-sv-pcs067",
@@ -220,7 +231,8 @@
       "🇨🇳"
     ],
     "idiomasQueTengo": [],
-    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Scarlet-Violet-Simplified-Chinese-Promos/Charmander-V1-SV-PCS067"
+    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Scarlet-Violet-Simplified-Chinese-Promos/Charmander-V1-SV-PCS067",
+    "precioMin": 0.6
   },
   {
     "id": "151-charmeleon-v2-mew169",
@@ -237,7 +249,8 @@
       "🇪🇸"
     ],
     "idiomasQueTengo": [],
-    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/151/Charmeleon-V2-MEW169"
+    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/151/Charmeleon-V2-MEW169",
+    "precioMin": 59.9
   },
   {
     "id": "151-charmeleon-v5-mew005",
@@ -254,7 +267,8 @@
       "🇪🇸"
     ],
     "idiomasQueTengo": [],
-    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/151/Charmeleon-V5-MEW005"
+    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/151/Charmeleon-V5-MEW005",
+    "precioMin": 0.95
   },
   {
     "id": "151-charmeleon-v1-mew005",
@@ -271,7 +285,8 @@
       "🇪🇸"
     ],
     "idiomasQueTengo": [],
-    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/151/Charmeleon-V1-MEW005"
+    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/151/Charmeleon-V1-MEW005",
+    "precioMin": 0.02
   },
   {
     "id": "brave-stars-charm-charmeleon-pkmschcs5ac-002",
@@ -287,7 +302,8 @@
       "🇨🇳"
     ],
     "idiomasQueTengo": [],
-    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Brave-Stars-Charm/Charmeleon-PKMSCHCS5aC-002"
+    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Brave-Stars-Charm/Charmeleon-PKMSCHCS5aC-002",
+    "precioMin": 0.99
   },
   {
     "id": "brave-stars-charm-charmander-pkmschcs5ac-001",
@@ -303,7 +319,8 @@
       "🇨🇳"
     ],
     "idiomasQueTengo": [],
-    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Brave-Stars-Charm/Charmander-PKMSCHCS5aC-001"
+    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Brave-Stars-Charm/Charmander-PKMSCHCS5aC-001",
+    "precioMin": 0.78
   },
   {
     "id": "paldean-fates-charmeleon-v2-paf110",
@@ -322,7 +339,8 @@
     "idiomasQueTengo": [
       "🇬🇧"
     ],
-    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Paldean-Fates/Charmeleon-V2-PAF110"
+    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Paldean-Fates/Charmeleon-V2-PAF110",
+    "precioMin": 14.68
   },
   {
     "id": "paldean-fates-charmander-v2-paf109",
@@ -339,7 +357,8 @@
       "🇪🇸"
     ],
     "idiomasQueTengo": [],
-    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Paldean-Fates/Charmander-V2-PAF109"
+    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Paldean-Fates/Charmander-V2-PAF109",
+    "precioMin": 25
   },
   {
     "id": "obsidian-flames-charmeleon-v2-obf027",
@@ -358,7 +377,8 @@
     "idiomasQueTengo": [
       "🇬🇧"
     ],
-    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Obsidian-Flames/Charmeleon-V2-OBF027"
+    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Obsidian-Flames/Charmeleon-V2-OBF027",
+    "precioMin": 0.08
   },
   {
     "id": "obsidian-flames-charmeleon-v1-obf027",
@@ -377,7 +397,8 @@
     "idiomasQueTengo": [
       "🇬🇧"
     ],
-    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Obsidian-Flames/Charmeleon-V1-OBF027"
+    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Obsidian-Flames/Charmeleon-V1-OBF027",
+    "precioMin": 0.03
   },
   {
     "id": "obsidian-flames-charmander-v2-obf026",
@@ -394,7 +415,8 @@
       "🇪🇸"
     ],
     "idiomasQueTengo": [],
-    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Obsidian-Flames/Charmander-V2-OBF026"
+    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Obsidian-Flames/Charmander-V2-OBF026",
+    "precioMin": 0.49
   },
   {
     "id": "obsidian-flames-charmander-v1-obf026",
@@ -411,7 +433,8 @@
       "🇪🇸"
     ],
     "idiomasQueTengo": [],
-    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Obsidian-Flames/Charmander-V1-OBF026"
+    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Obsidian-Flames/Charmander-V1-OBF026",
+    "precioMin": 0.02
   },
   {
     "id": "my-first-battle-charmeleon-mfb",
@@ -428,7 +451,8 @@
       "🇪🇸"
     ],
     "idiomasQueTengo": [],
-    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/My-First-Battle/Charmeleon-MFB"
+    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/My-First-Battle/Charmeleon-MFB",
+    "precioMin": 0.11
   },
   {
     "id": "my-first-battle-charmander-v1-mfb",
@@ -445,7 +469,8 @@
       "🇪🇸"
     ],
     "idiomasQueTengo": [],
-    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/My-First-Battle/Charmander-V1-MFB"
+    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/My-First-Battle/Charmander-V1-MFB",
+    "precioMin": 5.5
   },
   {
     "id": "sv-black-star-promos-charmander-svp047",
@@ -462,7 +487,8 @@
       "🇪🇸"
     ],
     "idiomasQueTengo": [],
-    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/SV-Black-Star-Promos/Charmander-SVP047"
+    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/SV-Black-Star-Promos/Charmander-SVP047",
+    "precioMin": 0.5
   },
   {
     "id": "151-charmander-v2-mew168",
@@ -481,7 +507,8 @@
     "idiomasQueTengo": [
       "🇬🇧"
     ],
-    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/151/Charmander-V2-MEW168"
+    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/151/Charmander-V2-MEW168",
+    "precioMin": 75
   },
   {
     "id": "151-charmander-v4-mew004",
@@ -498,7 +525,8 @@
       "🇪🇸"
     ],
     "idiomasQueTengo": [],
-    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/151/Charmander-V4-MEW004"
+    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/151/Charmander-V4-MEW004",
+    "precioMin": 359.92
   },
   {
     "id": "151-charmander-v1-mew004",
@@ -515,7 +543,8 @@
       "🇪🇸"
     ],
     "idiomasQueTengo": [],
-    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/151/Charmander-V1-MEW004"
+    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/151/Charmander-V1-MEW004",
+    "precioMin": 0.02
   },
   {
     "id": "sv-black-star-promos-charmander-v1-svp044",
@@ -534,7 +563,8 @@
     "idiomasQueTengo": [
       "🇪🇸"
     ],
-    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/SV-Black-Star-Promos/Charmander-V1-SVP044"
+    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/SV-Black-Star-Promos/Charmander-V1-SVP044",
+    "precioMin": 48.99
   },
   {
     "id": "pokemon-card-151-charmeleon-v2-sv2a169",
@@ -554,7 +584,8 @@
       "🇮🇩"
     ],
     "idiomasQueTengo": [],
-    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Pokemon-Card-151/Charmeleon-V2-sv2a169"
+    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Pokemon-Card-151/Charmeleon-V2-sv2a169",
+    "precioMin": 11.99
   },
   {
     "id": "pokemon-card-151-charmeleon-v1-sv2a005",
@@ -574,7 +605,8 @@
       "🇮🇩"
     ],
     "idiomasQueTengo": [],
-    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Pokemon-Card-151/Charmeleon-V1-sv2a005"
+    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Pokemon-Card-151/Charmeleon-V1-sv2a005",
+    "precioMin": 0.02
   },
   {
     "id": "pokemon-card-151-charmeleon-v1-sv2a005-2",
@@ -597,7 +629,8 @@
       "🇯🇵",
       "🇰🇷"
     ],
-    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Pokemon-Card-151/Charmeleon-V1-sv2a005"
+    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Pokemon-Card-151/Charmeleon-V1-sv2a005",
+    "precioMin": 0.02
   },
   {
     "id": "pokemon-card-151-charmander-v2-sv2a168",
@@ -619,7 +652,8 @@
     "idiomasQueTengo": [
       "🇰🇷"
     ],
-    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Pokemon-Card-151/Charmander-V2-sv2a168"
+    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Pokemon-Card-151/Charmander-V2-sv2a168",
+    "precioMin": 20.99
   },
   {
     "id": "pokemon-card-151-charmander-v1-sv2a004",
@@ -641,7 +675,8 @@
     "idiomasQueTengo": [
       "🇰🇷"
     ],
-    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Pokemon-Card-151/Charmander-V1-sv2a004"
+    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Pokemon-Card-151/Charmander-V1-sv2a004",
+    "precioMin": 0.02
   },
   {
     "id": "pokemon-card-151-charmander-v1-sv2a004-2",
@@ -664,7 +699,8 @@
       "🇯🇵",
       "🇰🇷"
     ],
-    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Pokemon-Card-151/Charmander-V1-sv2a004"
+    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Pokemon-Card-151/Charmander-V1-sv2a004",
+    "precioMin": 0.02
   },
   {
     "id": "swsh-black-star-promos-charmander-swsh232",
@@ -683,7 +719,8 @@
     "idiomasQueTengo": [
       "🇬🇧"
     ],
-    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/SWSH-Black-Star-Promos/Charmander-SWSH232"
+    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/SWSH-Black-Star-Promos/Charmander-SWSH232",
+    "precioMin": 7.5
   },
   {
     "id": "pokemon-go-charmeleon-pgo009",
@@ -702,7 +739,8 @@
     "idiomasQueTengo": [
       "🇪🇸"
     ],
-    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Pokemon-GO/Charmeleon-PGO009"
+    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Pokemon-GO/Charmeleon-PGO009",
+    "precioMin": 0.02
   },
   {
     "id": "pokemon-go-charmeleon-pgo009-2",
@@ -721,7 +759,8 @@
     "idiomasQueTengo": [
       "🇪🇸"
     ],
-    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Pokemon-GO/Charmeleon-PGO009"
+    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Pokemon-GO/Charmeleon-PGO009",
+    "precioMin": 0.02
   },
   {
     "id": "pokemon-go-charmander-pgo008",
@@ -740,7 +779,8 @@
     "idiomasQueTengo": [
       "🇪🇸"
     ],
-    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Pokemon-GO/Charmander-PGO008"
+    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Pokemon-GO/Charmander-PGO008",
+    "precioMin": 0.03
   },
   {
     "id": "pokemon-go-charmander-pgo008-2",
@@ -759,7 +799,8 @@
     "idiomasQueTengo": [
       "🇪🇸"
     ],
-    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Pokemon-GO/Charmander-PGO008"
+    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Pokemon-GO/Charmander-PGO008",
+    "precioMin": 0.03
   },
   {
     "id": "vivid-voltage-charmeleon-viv24",
@@ -776,7 +817,8 @@
       "🇪🇸"
     ],
     "idiomasQueTengo": [],
-    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Vivid-Voltage/Charmeleon-VIV24"
+    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Vivid-Voltage/Charmeleon-VIV24",
+    "precioMin": 0.02
   },
   {
     "id": "vivid-voltage-charmander-viv23",
@@ -793,7 +835,8 @@
       "🇪🇸"
     ],
     "idiomasQueTengo": [],
-    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Vivid-Voltage/Charmander-VIV23"
+    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Vivid-Voltage/Charmander-VIV23",
+    "precioMin": 0.03
   },
   {
     "id": "hidden-fates-charmeleon-v1-hif8",
@@ -810,7 +853,8 @@
       "🇪🇸"
     ],
     "idiomasQueTengo": [],
-    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Hidden-Fates/Charmeleon-V1-HIF8"
+    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Hidden-Fates/Charmeleon-V1-HIF8",
+    "precioMin": 0.02
   },
   {
     "id": "hidden-fates-charmeleon-hifsv7",
@@ -827,7 +871,8 @@
       "🇪🇸"
     ],
     "idiomasQueTengo": [],
-    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Hidden-Fates/Charmeleon-HIFSV7"
+    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Hidden-Fates/Charmeleon-HIFSV7",
+    "precioMin": 8.8
   },
   {
     "id": "hidden-fates-charmander-hifsv6",
@@ -844,7 +889,8 @@
       "🇪🇸"
     ],
     "idiomasQueTengo": [],
-    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Hidden-Fates/Charmander-HIFSV6"
+    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Hidden-Fates/Charmander-HIFSV6",
+    "precioMin": 15
   },
   {
     "id": "hidden-fates-charmander-hif7",
@@ -861,7 +907,8 @@
       "🇪🇸"
     ],
     "idiomasQueTengo": [],
-    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Hidden-Fates/Charmander-HIF7"
+    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Hidden-Fates/Charmander-HIF7",
+    "precioMin": 0.02
   },
   {
     "id": "detective-pikachu-charmander-det4",
@@ -880,7 +927,8 @@
     "idiomasQueTengo": [
       "🇪🇸"
     ],
-    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Detective-Pikachu/Charmander-DET4"
+    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Detective-Pikachu/Charmander-DET4",
+    "precioMin": 0.1
   },
   {
     "id": "team-up-charmeleon-teu13",
@@ -899,7 +947,8 @@
     "idiomasQueTengo": [
       "🇪🇸"
     ],
-    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Team-Up/Charmeleon-TEU13"
+    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Team-Up/Charmeleon-TEU13",
+    "precioMin": 0.05
   },
   {
     "id": "team-up-charmander-teu12",
@@ -918,7 +967,8 @@
     "idiomasQueTengo": [
       "🇪🇸"
     ],
-    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Team-Up/Charmander-TEU12"
+    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Team-Up/Charmander-TEU12",
+    "precioMin": 0.02
   },
   {
     "id": "team-up-charmander-teu11",
@@ -935,7 +985,8 @@
       "🇪🇸"
     ],
     "idiomasQueTengo": [],
-    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Team-Up/Charmander-TEU11"
+    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Team-Up/Charmander-TEU11",
+    "precioMin": 0.19
   },
   {
     "id": "dragon-majesty-charmeleon-drm2",
@@ -952,7 +1003,8 @@
       "🇪🇸"
     ],
     "idiomasQueTengo": [],
-    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Dragon-Majesty/Charmeleon-DRM2"
+    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Dragon-Majesty/Charmeleon-DRM2",
+    "precioMin": 0.8
   },
   {
     "id": "dragon-majesty-charmander-drm1",
@@ -971,7 +1023,8 @@
     "idiomasQueTengo": [
       "🇪🇸"
     ],
-    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Dragon-Majesty/Charmander-DRM1"
+    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Dragon-Majesty/Charmander-DRM1",
+    "precioMin": 1.6
   },
   {
     "id": "burning-shadows-charmeleon-bus19",
@@ -988,7 +1041,8 @@
       "🇪🇸"
     ],
     "idiomasQueTengo": [],
-    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Burning-Shadows/Charmeleon-BUS19"
+    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Burning-Shadows/Charmeleon-BUS19",
+    "precioMin": 0.03
   },
   {
     "id": "burning-shadows-charmander-v2-bus18a",
@@ -1005,7 +1059,8 @@
       "🇪🇸"
     ],
     "idiomasQueTengo": [],
-    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Burning-Shadows/Charmander-V2-BUS18a"
+    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Burning-Shadows/Charmander-V2-BUS18a",
+    "precioMin": 19.99
   },
   {
     "id": "burning-shadows-charmander-v1-bus18",
@@ -1025,7 +1080,8 @@
       "🇬🇧",
       "🇪🇸"
     ],
-    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Burning-Shadows/Charmander-V1-BUS18"
+    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Burning-Shadows/Charmander-V1-BUS18",
+    "precioMin": 0.02
   },
   {
     "id": "generations-charmeleon-genrc4",
@@ -1042,7 +1098,8 @@
       "🇪🇸"
     ],
     "idiomasQueTengo": [],
-    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Generations/Charmeleon-GENRC4"
+    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Generations/Charmeleon-GENRC4",
+    "precioMin": 6
   },
   {
     "id": "generations-charmander-genrc3",
@@ -1059,7 +1116,8 @@
       "🇪🇸"
     ],
     "idiomasQueTengo": [],
-    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Generations/Charmander-GENRC3"
+    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Generations/Charmander-GENRC3",
+    "precioMin": 8.29
   },
   {
     "id": "legendary-treasures-charmeleon-ltr18",
@@ -1073,7 +1131,8 @@
     "laQuiero": true,
     "idiomasDisponibles": [],
     "idiomasQueTengo": [],
-    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Legendary-Treasures/Charmeleon-LTR18"
+    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Legendary-Treasures/Charmeleon-LTR18",
+    "precioMin": 11.39
   },
   {
     "id": "legendary-treasures-charmander-v1-ltr17",
@@ -1089,7 +1148,8 @@
       "🇬🇧"
     ],
     "idiomasQueTengo": [],
-    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Legendary-Treasures/Charmander-V1-LTR17"
+    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Legendary-Treasures/Charmander-V1-LTR17",
+    "precioMin": 1.2
   },
   {
     "id": "boundaries-crossed-charmeleon-bcr19",
@@ -1106,7 +1166,8 @@
       "🇪🇸"
     ],
     "idiomasQueTengo": [],
-    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Boundaries-Crossed/Charmeleon-BCR19"
+    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Boundaries-Crossed/Charmeleon-BCR19",
+    "precioMin": 0.5
   },
   {
     "id": "boundaries-crossed-charmander-bcr18",
@@ -1123,7 +1184,8 @@
       "🇪🇸"
     ],
     "idiomasQueTengo": [],
-    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Boundaries-Crossed/Charmander-BCR18"
+    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Boundaries-Crossed/Charmander-BCR18",
+    "precioMin": 2
   },
   {
     "id": "bw-promos-charmander",
@@ -1141,7 +1203,8 @@
       "🇹🇼"
     ],
     "idiomasQueTengo": [],
-    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/BW-Promos/Charmander"
+    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/BW-Promos/Charmander",
+    "precioMin": 28.99
   },
   {
     "id": "arceus-charmeleon-lv31-ar35",
@@ -1157,7 +1220,8 @@
       "🇬🇧"
     ],
     "idiomasQueTengo": [],
-    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Arceus/Charmeleon-Lv31-AR35"
+    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Arceus/Charmeleon-Lv31-AR35",
+    "precioMin": 0.75
   },
   {
     "id": "arceus-charmander-lv13-ar59",
@@ -1173,7 +1237,8 @@
       "🇬🇧"
     ],
     "idiomasQueTengo": [],
-    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Arceus/Charmander-Lv13-AR59"
+    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Arceus/Charmander-Lv13-AR59",
+    "precioMin": 0.44
   },
   {
     "id": "stormfront-charmeleon-lv32-stf102",
@@ -1190,7 +1255,8 @@
       "🇪🇸"
     ],
     "idiomasQueTengo": [],
-    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Stormfront/Charmeleon-Lv32-STF102"
+    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Stormfront/Charmeleon-Lv32-STF102",
+    "precioMin": 35
   },
   {
     "id": "stormfront-charmander-lv10-stf101",
@@ -1207,7 +1273,8 @@
       "🇪🇸"
     ],
     "idiomasQueTengo": [],
-    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Stormfront/Charmander-Lv10-STF101"
+    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Stormfront/Charmander-Lv10-STF101",
+    "precioMin": 44.9
   },
   {
     "id": "secret-wonders-charmeleon-lv29-sw46",
@@ -1224,7 +1291,8 @@
       "🇪🇸"
     ],
     "idiomasQueTengo": [],
-    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Secret-Wonders/Charmeleon-Lv29-SW46"
+    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Secret-Wonders/Charmeleon-Lv29-SW46",
+    "precioMin": 0.08
   },
   {
     "id": "secret-wonders-charmander-lv8-sw82",
@@ -1243,7 +1311,8 @@
     "idiomasQueTengo": [
       "🇪🇸"
     ],
-    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Secret-Wonders/Charmander-Lv8-SW82"
+    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Secret-Wonders/Charmander-Lv8-SW82",
+    "precioMin": 0.35
   },
   {
     "id": "pop-series-5-charmeleon-delta-species-pop55",
@@ -1259,7 +1328,8 @@
       "🇬🇧"
     ],
     "idiomasQueTengo": [],
-    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/POP-Series-5/Charmeleon-Delta-Species-POP55"
+    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/POP-Series-5/Charmeleon-Delta-Species-POP55",
+    "precioMin": 30
   },
   {
     "id": "pop-series-5-charmander-delta-species-pop510",
@@ -1275,7 +1345,8 @@
       "🇬🇧"
     ],
     "idiomasQueTengo": [],
-    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/POP-Series-5/Charmander-Delta-Species-POP510"
+    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/POP-Series-5/Charmander-Delta-Species-POP510",
+    "precioMin": 22
   },
   {
     "id": "ex-power-keepers-charmeleon-pk28",
@@ -1291,7 +1362,8 @@
       "🇬🇧"
     ],
     "idiomasQueTengo": [],
-    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/EX-Power-Keepers/Charmeleon-PK28"
+    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/EX-Power-Keepers/Charmeleon-PK28",
+    "precioMin": 0.95
   },
   {
     "id": "ex-power-keepers-charmander-pk48",
@@ -1309,7 +1381,8 @@
     "idiomasQueTengo": [
       "🇬🇧"
     ],
-    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/EX-Power-Keepers/Charmander-PK48"
+    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/EX-Power-Keepers/Charmander-PK48",
+    "precioMin": 0.75
   },
   {
     "id": "dp-promos-charmander-lv9",
@@ -1327,7 +1400,8 @@
       "🇹🇼"
     ],
     "idiomasQueTengo": [],
-    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/DP-Promos/Charmander-Lv9"
+    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/DP-Promos/Charmander-Lv9",
+    "precioMin": 109.99
   },
   {
     "id": "ex-crystal-guardians-charmeleon-delta-species-cg30",
@@ -1343,7 +1417,8 @@
       "🇬🇧"
     ],
     "idiomasQueTengo": [],
-    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/EX-Crystal-Guardians/Charmeleon-Delta-Species-CG30"
+    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/EX-Crystal-Guardians/Charmeleon-Delta-Species-CG30",
+    "precioMin": 1.39
   },
   {
     "id": "ex-crystal-guardians-charmeleon-cg29",
@@ -1359,7 +1434,8 @@
       "🇬🇧"
     ],
     "idiomasQueTengo": [],
-    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/EX-Crystal-Guardians/Charmeleon-CG29"
+    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/EX-Crystal-Guardians/Charmeleon-CG29",
+    "precioMin": 0.4
   },
   {
     "id": "ex-crystal-guardians-charmander-delta-species-cg49",
@@ -1377,7 +1453,8 @@
     "idiomasQueTengo": [
       "🇬🇧"
     ],
-    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/EX-Crystal-Guardians/Charmander-Delta-Species-CG49"
+    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/EX-Crystal-Guardians/Charmander-Delta-Species-CG49",
+    "precioMin": 0.8
   },
   {
     "id": "ex-crystal-guardians-charmander-cg48",
@@ -1393,7 +1470,8 @@
       "🇬🇧"
     ],
     "idiomasQueTengo": [],
-    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/EX-Crystal-Guardians/Charmander-CG48"
+    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/EX-Crystal-Guardians/Charmander-CG48",
+    "precioMin": 1.49
   },
   {
     "id": "ex-delta-species-ditto-ds61",
@@ -1409,7 +1487,8 @@
       "🇬🇧"
     ],
     "idiomasQueTengo": [],
-    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/EX-Delta-Species/Ditto-DS61"
+    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/EX-Delta-Species/Ditto-DS61",
+    "precioMin": 17.99
   },
   {
     "id": "ex-delta-species-ditto-ds37",
@@ -1425,7 +1504,8 @@
       "🇬🇧"
     ],
     "idiomasQueTengo": [],
-    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/EX-Delta-Species/Ditto-DS37"
+    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/EX-Delta-Species/Ditto-DS37",
+    "precioMin": 25
   },
   {
     "id": "ex-team-rocket-returns-charmeleon-trr110",
@@ -1441,7 +1521,8 @@
       "🇬🇧"
     ],
     "idiomasQueTengo": [],
-    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/EX-Team-Rocket-Returns/Charmeleon-TRR110"
+    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/EX-Team-Rocket-Returns/Charmeleon-TRR110",
+    "precioMin": 65
   },
   {
     "id": "ex-firered-leafgreen-charmeleon-fl31",
@@ -1457,7 +1538,8 @@
       "🇬🇧"
     ],
     "idiomasQueTengo": [],
-    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/EX-FireRed-LeafGreen/Charmeleon-FL31"
+    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/EX-FireRed-LeafGreen/Charmeleon-FL31",
+    "precioMin": 0.7
   },
   {
     "id": "ex-firered-leafgreen-charmander-fl113",
@@ -1473,7 +1555,8 @@
       "🇬🇧"
     ],
     "idiomasQueTengo": [],
-    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/EX-FireRed-LeafGreen/Charmander-FL113"
+    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/EX-FireRed-LeafGreen/Charmander-FL113",
+    "precioMin": 43
   },
   {
     "id": "ex-firered-leafgreen-charmander-fl58",
@@ -1489,7 +1572,8 @@
       "🇬🇧"
     ],
     "idiomasQueTengo": [],
-    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/EX-FireRed-LeafGreen/Charmander-FL58"
+    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/EX-FireRed-LeafGreen/Charmander-FL58",
+    "precioMin": 0.4
   },
   {
     "id": "ex-firered-leafgreen-charmander-fl57",
@@ -1505,7 +1589,8 @@
       "🇬🇧"
     ],
     "idiomasQueTengo": [],
-    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/EX-FireRed-LeafGreen/Charmander-FL57"
+    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/EX-FireRed-LeafGreen/Charmander-FL57",
+    "precioMin": 1.98
   },
   {
     "id": "ex-dragon-charmeleon-v1-dr99",
@@ -1521,7 +1606,8 @@
       "🇬🇧"
     ],
     "idiomasQueTengo": [],
-    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/EX-Dragon/Charmeleon-V1-DR99"
+    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/EX-Dragon/Charmeleon-V1-DR99",
+    "precioMin": 50
   },
   {
     "id": "ex-dragon-charmander-v1-dr98",
@@ -1537,7 +1623,8 @@
       "🇬🇧"
     ],
     "idiomasQueTengo": [],
-    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/EX-Dragon/Charmander-V1-DR98"
+    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/EX-Dragon/Charmander-V1-DR98",
+    "precioMin": 140
   },
   {
     "id": "expedition-base-set-charmeleon-ex73",
@@ -1553,7 +1640,8 @@
       "🇬🇧"
     ],
     "idiomasQueTengo": [],
-    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Expedition-Base-Set/Charmeleon-EX73"
+    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Expedition-Base-Set/Charmeleon-EX73",
+    "precioMin": 14.8
   },
   {
     "id": "expedition-base-set-charmander-ex98",
@@ -1569,7 +1657,8 @@
       "🇬🇧"
     ],
     "idiomasQueTengo": [],
-    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Expedition-Base-Set/Charmander-EX98"
+    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Expedition-Base-Set/Charmander-EX98",
+    "precioMin": 19.99
   },
   {
     "id": "expedition-base-set-charmander-ex97",
@@ -1585,7 +1674,8 @@
       "🇬🇧"
     ],
     "idiomasQueTengo": [],
-    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Expedition-Base-Set/Charmander-EX97"
+    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Expedition-Base-Set/Charmander-EX97",
+    "precioMin": 2.6
   },
   {
     "id": "mcdonalds-original-minimum-pack-charmander",
@@ -1601,7 +1691,8 @@
       "🇯🇵"
     ],
     "idiomasQueTengo": [],
-    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/McDonalds-Original-Minimum-Pack/Charmander"
+    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/McDonalds-Original-Minimum-Pack/Charmander",
+    "precioMin": 1100
   },
   {
     "id": "t-promos-charmeleon",
@@ -1619,7 +1710,8 @@
       "🇹🇼"
     ],
     "idiomasQueTengo": [],
-    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/T-Promos/Charmeleon"
+    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/T-Promos/Charmeleon",
+    "precioMin": 240
   },
   {
     "id": "pokemon-cardweb-charmeleon-web007",
@@ -1637,7 +1729,8 @@
       "🇹🇼"
     ],
     "idiomasQueTengo": [],
-    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Pokemon-Cardweb/Charmeleon-WEB007"
+    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Pokemon-Cardweb/Charmeleon-WEB007",
+    "precioMin": 39
   },
   {
     "id": "pokemon-cardweb-dark-charmeleon-web022",
@@ -1655,7 +1748,8 @@
       "🇹🇼"
     ],
     "idiomasQueTengo": [],
-    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Pokemon-Cardweb/Dark-Charmeleon-WEB022"
+    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Pokemon-Cardweb/Dark-Charmeleon-WEB022",
+    "precioMin": 129.9
   },
   {
     "id": "gym-challenge-blaines-charmeleon-gc31",
@@ -1673,7 +1767,8 @@
     "idiomasQueTengo": [
       "🇬🇧"
     ],
-    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Gym-Challenge/Blaines-Charmeleon-GC31"
+    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Gym-Challenge/Blaines-Charmeleon-GC31",
+    "precioMin": 3.5
   },
   {
     "id": "gym-challenge-blaines-charmander-gc60",
@@ -1691,7 +1786,8 @@
     "idiomasQueTengo": [
       "🇬🇧"
     ],
-    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Gym-Challenge/Blaines-Charmander-GC60"
+    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Gym-Challenge/Blaines-Charmander-GC60",
+    "precioMin": 2.5
   },
   {
     "id": "gym-heroes-blaines-charmander-gh61",
@@ -1707,7 +1803,8 @@
       "🇬🇧"
     ],
     "idiomasQueTengo": [],
-    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Gym-Heroes/Blaines-Charmander-GH61"
+    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Gym-Heroes/Blaines-Charmander-GH61",
+    "precioMin": 1.99
   },
   {
     "id": "team-rocket-dark-charmeleon-tr32",
@@ -1725,7 +1822,8 @@
     "idiomasQueTengo": [
       "🇬🇧"
     ],
-    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Team-Rocket/Dark-Charmeleon-TR32"
+    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Team-Rocket/Dark-Charmeleon-TR32",
+    "precioMin": 4
   },
   {
     "id": "team-rocket-charmander-tr50",
@@ -1743,7 +1841,8 @@
     "idiomasQueTengo": [
       "🇬🇧"
     ],
-    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Team-Rocket/Charmander-TR50"
+    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Team-Rocket/Charmander-TR50",
+    "precioMin": 0.5
   },
   {
     "id": "base-set-charmeleon-v1-bs24",
@@ -1762,7 +1861,8 @@
     "idiomasQueTengo": [
       "🇪🇸"
     ],
-    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Base-Set/Charmeleon-V1-BS24"
+    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Base-Set/Charmeleon-V1-BS24",
+    "precioMin": 0.89
   },
   {
     "id": "base-set-charmander-v1-bs46",
@@ -1781,7 +1881,8 @@
     "idiomasQueTengo": [
       "🇪🇸"
     ],
-    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Base-Set/Charmander-V1-BS46"
+    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Base-Set/Charmander-V1-BS46",
+    "precioMin": 0.74
   },
   {
     "id": "expansion-sheet-charmander",
@@ -1797,7 +1898,8 @@
       "🇯🇵"
     ],
     "idiomasQueTengo": [],
-    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Expansion-Sheet/Charmander"
+    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Expansion-Sheet/Charmander",
+    "precioMin": 78
   },
   {
     "id": "unnumbered-promos-charmander-v1",
@@ -1815,6 +1917,7 @@
       "🇹🇼"
     ],
     "idiomasQueTengo": [],
-    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Unnumbered-Promos/Charmander-V1"
+    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Unnumbered-Promos/Charmander-V1",
+    "precioMin": null
   }
 ]

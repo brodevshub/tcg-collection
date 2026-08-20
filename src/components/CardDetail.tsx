@@ -18,7 +18,11 @@ function cardmarketLink(card: Card): string {
   const ids = card.idiomasDisponibles
     .map((flag) => CARDMARKET_LANG_IDS[flag])
     .filter(Boolean)
-  return ids.length ? `${card.cardmarketUrl}?language=${ids.join(',')}` : card.cardmarketUrl
+  // Mismos filtros con los que se scrapea precioMin: estado mínimo Excellent
+  // y vendedores con reputación "muy buena" o mejor
+  const params = ['sellerReputation=2', 'minCondition=3']
+  if (ids.length) params.push(`language=${ids.join(',')}`)
+  return `${card.cardmarketUrl}?${params.join('&')}`
 }
 
 interface Props {
@@ -70,6 +74,14 @@ export function CardDetail({ card, onClose, onToggleTengo, onToggleIdioma }: Pro
           <div>
             <dt>Pokémon</dt>
             <dd>{card.pokemon}</dd>
+          </div>
+          <div>
+            <dt>Precio mínimo (EX o mejor)</dt>
+            <dd className="aside-precio">
+              {card.precioMin != null
+                ? `${card.precioMin.toFixed(2).replace('.', ',')} €`
+                : 'Sin ofertas con estos filtros'}
+            </dd>
           </div>
           <div>
             <dt>Idiomas (marca los que tienes)</dt>

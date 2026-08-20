@@ -344,6 +344,11 @@ body {
   background: rgba(76, 175, 110, 0.15);
 }
 
+.aside-precio {
+  color: var(--fire-soft);
+  font-weight: 600;
+}
+
 .aside-quiero {
   margin: 0;
   color: var(--want);
