@@ -28,6 +28,10 @@ export function StatsBar({ cards }: { cards: Card[] }) {
         <span className="stat-price">{euros(suma(faltan))}</span>
       </div>
       <div className="stat">
+        <span className="stat-value">{cards.filter((c) => c.precioMin == null).length}</span>
+        <span className="stat-label">Sin precio</span>
+      </div>
+      <div className="stat">
         <span className="stat-value">{pct}%</span>
         <span className="stat-label">Completado</span>
       </div>

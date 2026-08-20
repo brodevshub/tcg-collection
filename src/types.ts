@@ -20,7 +20,7 @@ export type SortMode = 'orden-desc' | 'orden-asc' | 'precio-desc' | 'precio-asc'
 export interface FiltersState {
   search: string
   pokemon: 'all' | 'Charmander' | 'Charmeleon'
-  estado: 'all' | 'tengo' | 'faltan'
+  estado: 'all' | 'tengo' | 'faltan' | 'sin-precio'
   idioma: string
   sort: SortMode
 }
