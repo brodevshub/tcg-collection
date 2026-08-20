@@ -261,12 +261,3 @@ body {
   white-space: nowrap;
 }
 
-.card-link {
-  font-size: 0.68rem;
-  color: var(--fire-soft);
-  text-decoration: none;
-}
-
-.card-link:hover {
-  text-decoration: underline;
-}

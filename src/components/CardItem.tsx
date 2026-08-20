@@ -60,9 +60,6 @@ export function CardItem({ card, onToggleTengo }: Props) {
           </button>
           {card.laQuiero && <span className="badge-quiero">★ Quiero</span>}
         </div>
-        <a className="card-link" href={card.cardmarketUrl} target="_blank" rel="noopener noreferrer">
-          Ver en Cardmarket ↗
-        </a>
       </div>
     </article>
   )
