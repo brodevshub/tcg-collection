@@ -129,8 +129,8 @@ body {
 /* ---------- Grid ---------- */
 .grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
-  gap: 0.7rem;
+  grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
+  gap: 0.6rem;
 }
 
 .empty {
@@ -139,34 +139,28 @@ body {
   padding: 3rem 0;
 }
 
-/* ---------- Card ---------- */
+/* ---------- Card (solo imagen) ---------- */
 .card {
   background: var(--bg-card);
   border: 1px solid var(--border);
-  border-radius: 14px;
+  border-radius: 10px;
   overflow: hidden;
-  display: flex;
-  flex-direction: column;
-  transition: transform 0.15s ease, border-color 0.15s ease, background 0.15s ease;
+  padding: 0;
+  aspect-ratio: 5 / 7;
+  cursor: pointer;
+  transition: transform 0.15s ease, border-color 0.15s ease;
 }
 
 .card:hover {
   transform: translateY(-3px);
   border-color: var(--fire);
-  background: var(--bg-card-hover);
 }
 
 .card-owned {
   border-color: rgba(76, 175, 110, 0.45);
 }
 
-.card-image-link {
-  display: block;
-  background: #0e0b09;
-  aspect-ratio: 5 / 7;
-}
-
-.card-image-link img {
+.card img {
   width: 100%;
   height: 100%;
   object-fit: contain;
@@ -175,11 +169,11 @@ body {
 }
 
 /* Las que no tengo, en blanco y negro; recuperan color al pasar el ratón */
-.card:not(.card-owned) .card-image-link img {
+.card:not(.card-owned) img {
   filter: grayscale(1) brightness(0.85);
 }
 
-.card:not(.card-owned):hover .card-image-link img {
+.card:not(.card-owned):hover img {
   filter: none;
 }
 
@@ -193,38 +187,6 @@ body {
   opacity: 0.35;
 }
 
-.card-body {
-  padding: 0.5rem 0.6rem 0.6rem;
-  display: flex;
-  flex-direction: column;
-  gap: 0.25rem;
-  flex: 1;
-}
-
-.card-name {
-  margin: 0;
-  font-size: 0.86rem;
-  line-height: 1.2;
-}
-
-.card-set {
-  margin: 0;
-  font-size: 0.7rem;
-  color: var(--text-dim);
-  line-height: 1.3;
-}
-
-.card-code {
-  white-space: nowrap;
-}
-
-.card-langs {
-  display: flex;
-  gap: 0.25rem;
-  flex-wrap: wrap;
-  font-size: 0.85rem;
-}
-
 .flag {
   opacity: 0.45;
 }
@@ -234,20 +196,13 @@ body {
   filter: drop-shadow(0 0 4px rgba(76, 175, 110, 0.8));
 }
 
-.card-actions {
-  display: flex;
-  align-items: center;
-  gap: 0.4rem;
-  margin-top: auto;
-}
-
 .btn-tengo {
   border: 1px solid var(--border);
   background: transparent;
   color: var(--text-dim);
-  border-radius: 6px;
-  padding: 0.2rem 0.45rem;
-  font-size: 0.7rem;
+  border-radius: 8px;
+  padding: 0.45rem 0.9rem;
+  font-size: 0.9rem;
   white-space: nowrap;
   cursor: pointer;
   transition: all 0.15s ease;
@@ -265,9 +220,139 @@ body {
   font-weight: 600;
 }
 
-.badge-quiero {
-  font-size: 0.68rem;
-  color: var(--want);
+/* ---------- Aside de detalle ---------- */
+.overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.55);
+  z-index: 10;
+}
+
+.aside {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: min(360px, 92vw);
+  background: var(--bg-card);
+  border-left: 1px solid var(--border);
+  z-index: 11;
+  padding: 1.25rem;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+  animation: slide-in 0.2s ease;
+}
+
+@keyframes slide-in {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+.aside-close {
+  position: absolute;
+  top: 0.75rem;
+  right: 0.75rem;
+  background: transparent;
+  border: 1px solid var(--border);
+  color: var(--text-dim);
+  border-radius: 8px;
+  width: 2rem;
+  height: 2rem;
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+
+.aside-close:hover {
+  border-color: var(--fire);
+  color: var(--text);
+}
+
+.aside-image {
+  aspect-ratio: 5 / 7;
+  max-height: 46vh;
+  align-self: center;
+  background: #0e0b09;
+  border-radius: 12px;
+  overflow: hidden;
+  margin-top: 1.5rem;
+}
+
+.aside-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  display: block;
+}
+
+.aside-name {
+  margin: 0;
+  font-size: 1.3rem;
+}
+
+.aside-set {
+  margin: 0;
+  color: var(--text-dim);
+  font-size: 0.9rem;
+}
+
+.aside-code {
   white-space: nowrap;
+}
+
+.aside-facts {
+  margin: 0.4rem 0 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.55rem;
+}
+
+.aside-facts dt {
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--text-dim);
+}
+
+.aside-facts dd {
+  margin: 0.1rem 0 0;
+  font-size: 0.95rem;
+}
+
+.aside-langs {
+  display: flex;
+  gap: 0.35rem;
+  flex-wrap: wrap;
+  font-size: 1.15rem;
+}
+
+.aside-quiero {
+  margin: 0;
+  color: var(--want);
+  font-size: 0.95rem;
+}
+
+.aside-actions {
+  margin-top: auto;
+  padding-top: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem;
+}
+
+.aside-link {
+  font-size: 0.88rem;
+  color: var(--fire-soft);
+  text-decoration: none;
+}
+
+.aside-link:hover {
+  text-decoration: underline;
 }
 

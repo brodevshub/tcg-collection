@@ -4,11 +4,13 @@ import type { Card, FiltersState } from './types'
 import { StatsBar } from './components/StatsBar'
 import { Filters } from './components/Filters'
 import { CardGrid } from './components/CardGrid'
+import { CardDetail } from './components/CardDetail'
 
 const initialCards = (cardsData as Card[]).slice().sort((a, b) => b.orden - a.orden)
 
 export default function App() {
   const [cards, setCards] = useState<Card[]>(initialCards)
+  const [selectedId, setSelectedId] = useState<string | null>(null)
   const [filters, setFilters] = useState<FiltersState>({
     search: '',
     pokemon: 'all',
@@ -21,6 +23,8 @@ export default function App() {
     for (const card of cards) card.idiomasDisponibles.forEach((f) => set.add(f))
     return [...set]
   }, [cards])
+
+  const selected = selectedId ? cards.find((c) => c.id === selectedId) : null
 
   const filtered = useMemo(() => {
     const q = filters.search.trim().toLowerCase()
@@ -65,7 +69,10 @@ export default function App() {
       </header>
       <StatsBar cards={cards} />
       <Filters filters={filters} onChange={setFilters} idiomas={idiomas} resultCount={filtered.length} />
-      <CardGrid cards={filtered} onToggleTengo={toggleTengo} />
+      <CardGrid cards={filtered} onSelect={setSelectedId} />
+      {selected && (
+        <CardDetail card={selected} onClose={() => setSelectedId(null)} onToggleTengo={toggleTengo} />
+      )}
     </div>
   )
 }
