@@ -27,11 +27,10 @@ function cardmarketLink(card: Card): string {
 interface Props {
   card: Card
   onClose: () => void
-  onToggleTengo: (id: string) => void
   onToggleIdioma: (id: string, idioma: string) => void
 }
 
-export function CardDetail({ card, onClose, onToggleTengo, onToggleIdioma }: Props) {
+export function CardDetail({ card, onClose, onToggleIdioma }: Props) {
   const [imgError, setImgError] = useState(false)
 
   useEffect(() => {
@@ -105,13 +104,9 @@ export function CardDetail({ card, onClose, onToggleTengo, onToggleIdioma }: Pro
         </dl>
         {card.laQuiero && <p className="aside-quiero">★ La quiero</p>}
         <div className="aside-actions">
-          <button
-            type="button"
-            className={`btn-tengo ${card.laTengo ? 'active' : ''}`}
-            onClick={() => onToggleTengo(card.id)}
-          >
+          <span className={`estado ${card.laTengo ? 'estado-tengo' : ''}`}>
             {card.laTengo ? '✓ La tengo' : 'No la tengo'}
-          </button>
+          </span>
           <a className="aside-link" href={cardmarketLink(card)} target="_blank" rel="noopener noreferrer">
             Ver en Cardmarket ↗
           </a>

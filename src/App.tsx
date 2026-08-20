@@ -72,26 +72,16 @@ export default function App() {
     if (!card) return
     const tengo = !card.idiomasQueTengo.includes(idioma)
     setCards((current) =>
-      current.map((c) =>
-        c.id === id
-          ? {
-              ...c,
-              idiomasQueTengo: c.idiomasDisponibles.filter((f) =>
-                f === idioma ? tengo : c.idiomasQueTengo.includes(f),
-              ),
-            }
-          : c,
-      ),
+      current.map((c) => {
+        if (c.id !== id) return c
+        const idiomasQueTengo = c.idiomasDisponibles.filter((f) =>
+          f === idioma ? tengo : c.idiomasQueTengo.includes(f),
+        )
+        // laTengo se deriva de los idiomas marcados
+        return { ...c, idiomasQueTengo, laTengo: idiomasQueTengo.length > 0 }
+      }),
     )
     void persist('/api/toggle-idioma', { id, idioma, tengo }, cards)
-  }
-
-  function toggleTengo(id: string) {
-    const card = cards.find((c) => c.id === id)
-    if (!card) return
-    const laTengo = !card.laTengo
-    setCards((current) => current.map((c) => (c.id === id ? { ...c, laTengo } : c)))
-    void persist('/api/toggle-tengo', { id, laTengo }, cards)
   }
 
   return (
@@ -106,12 +96,7 @@ export default function App() {
       <Filters filters={filters} onChange={setFilters} idiomas={idiomas} resultCount={filtered.length} />
       <CardGrid cards={filtered} onSelect={setSelectedId} />
       {selected && (
-        <CardDetail
-          card={selected}
-          onClose={() => setSelectedId(null)}
-          onToggleTengo={toggleTengo}
-          onToggleIdioma={toggleIdioma}
-        />
+        <CardDetail card={selected} onClose={() => setSelectedId(null)} onToggleIdioma={toggleIdioma} />
       )}
     </div>
   )

@@ -186,26 +186,13 @@ body {
   filter: drop-shadow(0 0 4px rgba(76, 175, 110, 0.8));
 }
 
-.btn-tengo {
-  border: 1px solid var(--border);
-  background: transparent;
-  color: var(--text-dim);
-  border-radius: 8px;
-  padding: 0.45rem 0.9rem;
+.estado {
   font-size: 0.9rem;
+  color: var(--text-dim);
   white-space: nowrap;
-  cursor: pointer;
-  transition: all 0.15s ease;
 }
 
-.btn-tengo:hover {
-  border-color: var(--owned);
-  color: var(--owned);
-}
-
-.btn-tengo.active {
-  background: rgba(76, 175, 110, 0.15);
-  border-color: var(--owned);
+.estado-tengo {
   color: var(--owned);
   font-weight: 600;
 }

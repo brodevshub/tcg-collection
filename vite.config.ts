@@ -6,43 +6,13 @@ import { fileURLToPath } from 'node:url'
 const CARDS_JSON = fileURLToPath(new URL('./src/data/cards.json', import.meta.url))
 const CARDS_IMG_DIR = fileURLToPath(new URL('./public/cards', import.meta.url))
 
-// Persiste el toggle de "La tengo" escribiendo directamente en src/data/cards.json.
-// Solo existe en `npm run dev`; en un build estático el endpoint no está disponible.
+// Persiste los cambios de colección escribiendo directamente en
+// src/data/cards.json. Solo existe en `npm run dev`; en un build estático los
+// endpoints no están disponibles.
 function persistCards(): Plugin {
   return {
     name: 'persist-cards',
     configureServer(server: ViteDevServer) {
-      server.middlewares.use('/api/toggle-tengo', (req, res) => {
-        if (req.method !== 'POST') {
-          res.statusCode = 405
-          res.end()
-          return
-        }
-        let body = ''
-        req.on('data', (chunk) => (body += chunk))
-        req.on('end', () => {
-          try {
-            const { id, laTengo } = JSON.parse(body) as { id: string; laTengo: boolean }
-            const cards = JSON.parse(readFileSync(CARDS_JSON, 'utf-8')) as { id: string; laTengo: boolean }[]
-            const card = cards.find((c) => c.id === id)
-            if (!card) {
-              res.statusCode = 404
-              res.end(JSON.stringify({ error: 'card not found' }))
-              return
-            }
-            // Se asigna el valor pedido (no toggle ciego): así cliente y disco
-            // no pueden quedar invertidos si algún POST se pierde
-            card.laTengo = laTengo === true
-            writeFileSync(CARDS_JSON, JSON.stringify(cards, null, 2) + '\n')
-            res.setHeader('Content-Type', 'application/json')
-            res.end(JSON.stringify({ id, laTengo: card.laTengo }))
-          } catch {
-            res.statusCode = 400
-            res.end(JSON.stringify({ error: 'bad request' }))
-          }
-        })
-      })
-
       // Devuelve cards.json leído del disco. El import estático del bundle
       // queda cacheado por Vite (cards.json está excluido del watcher), así
       // que el front se sincroniza con esto al arrancar.
@@ -74,6 +44,7 @@ function persistCards(): Plugin {
             }
             const cards = JSON.parse(readFileSync(CARDS_JSON, 'utf-8')) as {
               id: string
+              laTengo: boolean
               idiomasDisponibles: string[]
               idiomasQueTengo: string[]
             }[]
@@ -87,9 +58,13 @@ function persistCards(): Plugin {
             card.idiomasQueTengo = card.idiomasDisponibles.filter((f) =>
               f === idioma ? tengo === true : card.idiomasQueTengo.includes(f),
             )
+            // laTengo se deriva de los idiomas marcados
+            card.laTengo = card.idiomasQueTengo.length > 0
             writeFileSync(CARDS_JSON, JSON.stringify(cards, null, 2) + '\n')
             res.setHeader('Content-Type', 'application/json')
-            res.end(JSON.stringify({ id, idiomasQueTengo: card.idiomasQueTengo }))
+            res.end(
+              JSON.stringify({ id, laTengo: card.laTengo, idiomasQueTengo: card.idiomasQueTengo }),
+            )
           } catch {
             res.statusCode = 400
             res.end(JSON.stringify({ error: 'bad request' }))
