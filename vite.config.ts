@@ -22,7 +22,7 @@ function persistCards(): Plugin {
         req.on('data', (chunk) => (body += chunk))
         req.on('end', () => {
           try {
-            const { id } = JSON.parse(body) as { id: string }
+            const { id, laTengo } = JSON.parse(body) as { id: string; laTengo: boolean }
             const cards = JSON.parse(readFileSync(CARDS_JSON, 'utf-8')) as { id: string; laTengo: boolean }[]
             const card = cards.find((c) => c.id === id)
             if (!card) {
@@ -30,10 +30,66 @@ function persistCards(): Plugin {
               res.end(JSON.stringify({ error: 'card not found' }))
               return
             }
-            card.laTengo = !card.laTengo
+            // Se asigna el valor pedido (no toggle ciego): así cliente y disco
+            // no pueden quedar invertidos si algún POST se pierde
+            card.laTengo = laTengo === true
             writeFileSync(CARDS_JSON, JSON.stringify(cards, null, 2) + '\n')
             res.setHeader('Content-Type', 'application/json')
             res.end(JSON.stringify({ id, laTengo: card.laTengo }))
+          } catch {
+            res.statusCode = 400
+            res.end(JSON.stringify({ error: 'bad request' }))
+          }
+        })
+      })
+
+      // Devuelve cards.json leído del disco. El import estático del bundle
+      // queda cacheado por Vite (cards.json está excluido del watcher), así
+      // que el front se sincroniza con esto al arrancar.
+      server.middlewares.use('/api/cards', (req, res) => {
+        if (req.method !== 'GET') {
+          res.statusCode = 405
+          res.end()
+          return
+        }
+        res.setHeader('Content-Type', 'application/json')
+        res.end(readFileSync(CARDS_JSON, 'utf-8'))
+      })
+
+      // Alterna un idioma en "idiomasQueTengo" de una carta y lo persiste.
+      server.middlewares.use('/api/toggle-idioma', (req, res) => {
+        if (req.method !== 'POST') {
+          res.statusCode = 405
+          res.end()
+          return
+        }
+        let body = ''
+        req.on('data', (chunk) => (body += chunk))
+        req.on('end', () => {
+          try {
+            const { id, idioma, tengo } = JSON.parse(body) as {
+              id: string
+              idioma: string
+              tengo: boolean
+            }
+            const cards = JSON.parse(readFileSync(CARDS_JSON, 'utf-8')) as {
+              id: string
+              idiomasDisponibles: string[]
+              idiomasQueTengo: string[]
+            }[]
+            const card = cards.find((c) => c.id === id)
+            if (!card || !card.idiomasDisponibles.includes(idioma)) {
+              res.statusCode = 404
+              res.end(JSON.stringify({ error: 'card o idioma no válido' }))
+              return
+            }
+            // Se asigna el valor pedido (no toggle ciego), ver toggle-tengo
+            card.idiomasQueTengo = card.idiomasDisponibles.filter((f) =>
+              f === idioma ? tengo === true : card.idiomasQueTengo.includes(f),
+            )
+            writeFileSync(CARDS_JSON, JSON.stringify(cards, null, 2) + '\n')
+            res.setHeader('Content-Type', 'application/json')
+            res.end(JSON.stringify({ id, idiomasQueTengo: card.idiomasQueTengo }))
           } catch {
             res.statusCode = 400
             res.end(JSON.stringify({ error: 'bad request' }))

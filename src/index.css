@@ -321,6 +321,29 @@ body {
   font-size: 1.15rem;
 }
 
+.flag-btn {
+  font-size: 1.2rem;
+  line-height: 1;
+  padding: 0.35rem 0.45rem;
+  background: transparent;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  cursor: pointer;
+  opacity: 0.4;
+  transition: all 0.15s ease;
+}
+
+.flag-btn:hover {
+  opacity: 0.8;
+  border-color: var(--owned);
+}
+
+.flag-btn-owned {
+  opacity: 1;
+  border-color: var(--owned);
+  background: rgba(76, 175, 110, 0.15);
+}
+
 .aside-quiero {
   margin: 0;
   color: var(--want);

@@ -25,9 +25,10 @@ interface Props {
   card: Card
   onClose: () => void
   onToggleTengo: (id: string) => void
+  onToggleIdioma: (id: string, idioma: string) => void
 }
 
-export function CardDetail({ card, onClose, onToggleTengo }: Props) {
+export function CardDetail({ card, onClose, onToggleTengo, onToggleIdioma }: Props) {
   const [imgError, setImgError] = useState(false)
 
   useEffect(() => {
@@ -71,32 +72,25 @@ export function CardDetail({ card, onClose, onToggleTengo }: Props) {
             <dd>{card.pokemon}</dd>
           </div>
           <div>
-            <dt>Idiomas disponibles</dt>
+            <dt>Idiomas (marca los que tienes)</dt>
             <dd className="aside-langs">
               {card.idiomasDisponibles.length === 0 && '—'}
-              {card.idiomasDisponibles.map((flag) => (
-                <span
-                  key={flag}
-                  className={`flag ${card.idiomasQueTengo.includes(flag) ? 'flag-owned' : ''}`}
-                  title={card.idiomasQueTengo.includes(flag) ? 'La tengo en este idioma' : 'Disponible'}
-                >
-                  {flag}
-                </span>
-              ))}
+              {card.idiomasDisponibles.map((flag) => {
+                const owned = card.idiomasQueTengo.includes(flag)
+                return (
+                  <button
+                    key={flag}
+                    type="button"
+                    className={`flag-btn ${owned ? 'flag-btn-owned' : ''}`}
+                    title={owned ? 'La tengo en este idioma (quitar)' : 'No la tengo en este idioma (marcar)'}
+                    onClick={() => onToggleIdioma(card.id, flag)}
+                  >
+                    {flag}
+                  </button>
+                )
+              })}
             </dd>
           </div>
-          {card.idiomasQueTengo.length > 0 && (
-            <div>
-              <dt>La tengo en</dt>
-              <dd className="aside-langs">
-                {card.idiomasQueTengo.map((flag) => (
-                  <span key={flag} className="flag flag-owned">
-                    {flag}
-                  </span>
-                ))}
-              </dd>
-            </div>
-          )}
         </dl>
         {card.laQuiero && <p className="aside-quiero">★ La quiero</p>}
         <div className="aside-actions">
