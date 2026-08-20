@@ -1,9 +1,10 @@
 import { defineConfig, type Plugin, type ViteDevServer } from 'vite'
 import react from '@vitejs/plugin-react'
-import { readFileSync, writeFileSync } from 'node:fs'
+import { mkdirSync, readFileSync, writeFileSync } from 'node:fs'
 import { fileURLToPath } from 'node:url'
 
 const CARDS_JSON = fileURLToPath(new URL('./src/data/cards.json', import.meta.url))
+const CARDS_IMG_DIR = fileURLToPath(new URL('./public/cards', import.meta.url))
 
 // Persiste el toggle de "La tengo" escribiendo directamente en src/data/cards.json.
 // Solo existe en `npm run dev`; en un build estático el endpoint no está disponible.
@@ -39,6 +40,68 @@ function persistCards(): Plugin {
           }
         })
       })
+
+      // Descarga la imagen de una carta. El navegador (en cardmarket.com) extrae
+      // la URL og:image y la manda aquí; el servidor baja el JPEG con Referer de
+      // Cardmarket, que es lo que exige su CDN. CORS abierto porque el POST
+      // llega desde páginas de cardmarket.com.
+      server.middlewares.use('/api/fetch-image', (req, res) => {
+        res.setHeader('Access-Control-Allow-Origin', '*')
+        res.setHeader('Access-Control-Allow-Methods', 'POST, OPTIONS')
+        res.setHeader('Access-Control-Allow-Headers', 'Content-Type')
+        // Chrome exige esto (Private Network Access) para llamadas de una web
+        // pública https hacia localhost
+        res.setHeader('Access-Control-Allow-Private-Network', 'true')
+        if (req.method === 'OPTIONS') {
+          res.statusCode = 204
+          res.end()
+          return
+        }
+        if (req.method !== 'POST') {
+          res.statusCode = 405
+          res.end()
+          return
+        }
+        let body = ''
+        req.on('data', (chunk) => (body += chunk))
+        req.on('end', async () => {
+          res.setHeader('Content-Type', 'application/json')
+          try {
+            const { productUrl, imageUrl } = JSON.parse(body) as { productUrl: string; imageUrl: string }
+            if (!/^https:\/\/product-images\.s3\.cardmarket\.com\//.test(imageUrl)) {
+              res.statusCode = 400
+              res.end(JSON.stringify({ error: 'bad imageUrl' }))
+              return
+            }
+            const cards = JSON.parse(readFileSync(CARDS_JSON, 'utf-8')) as { id: string; cardmarketUrl: string }[]
+            const ids = cards.filter((c) => c.cardmarketUrl === productUrl).map((c) => c.id)
+            if (ids.length === 0) {
+              res.statusCode = 404
+              res.end(JSON.stringify({ error: 'unknown productUrl', productUrl }))
+              return
+            }
+            const imgRes = await fetch(imageUrl, {
+              headers: {
+                Referer: 'https://www.cardmarket.com/',
+                'User-Agent':
+                  'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36',
+              },
+            })
+            if (!imgRes.ok) {
+              res.statusCode = 502
+              res.end(JSON.stringify({ error: `image HTTP ${imgRes.status}` }))
+              return
+            }
+            const buffer = Buffer.from(await imgRes.arrayBuffer())
+            mkdirSync(CARDS_IMG_DIR, { recursive: true })
+            for (const id of ids) writeFileSync(`${CARDS_IMG_DIR}/${id}.jpg`, buffer)
+            res.end(JSON.stringify({ ids, bytes: buffer.length }))
+          } catch (error) {
+            res.statusCode = 500
+            res.end(JSON.stringify({ error: String(error) }))
+          }
+        })
+      })
     },
   }
 }
@@ -46,7 +109,9 @@ function persistCards(): Plugin {
 export default defineConfig({
   plugins: [react(), persistCards()],
   server: {
-    // El endpoint reescribe cards.json; sin esto cada toggle recargaría la página
+    // El endpoint del toggle reescribe cards.json; sin esto cada toggle
+    // recargaría la página. public/cards NO se ignora: Vite necesita ver los
+    // archivos nuevos para servirlos.
     watch: { ignored: ['**/src/data/cards.json'] },
   },
 })
