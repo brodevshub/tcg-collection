@@ -171,6 +171,16 @@ body {
   height: 100%;
   object-fit: contain;
   display: block;
+  transition: filter 0.2s ease;
+}
+
+/* Las que no tengo, en blanco y negro; recuperan color al pasar el ratón */
+.card:not(.card-owned) .card-image-link img {
+  filter: grayscale(1) brightness(0.85);
+}
+
+.card:not(.card-owned):hover .card-image-link img {
+  filter: none;
 }
 
 .card-placeholder {
