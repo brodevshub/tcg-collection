@@ -16,6 +16,12 @@
   box-sizing: border-box;
 }
 
+html {
+  /* Reserva el hueco de la scrollbar: sin esto, filtrar cartas hace aparecer
+     o desaparecer la barra y todo el layout se desplaza */
+  scrollbar-gutter: stable;
+}
+
 body {
   margin: 0;
   background: var(--bg);
@@ -91,6 +97,13 @@ body {
   letter-spacing: 0.06em;
 }
 
+.stat-price {
+  display: block;
+  font-size: 0.82rem;
+  color: var(--fire-soft);
+  margin-top: 0.15rem;
+}
+
 /* ---------- Filters ---------- */
 .filters {
   display: flex;
@@ -124,6 +137,8 @@ body {
   color: var(--text-dim);
   font-size: 0.9rem;
   margin-left: auto;
+  min-width: 5.5rem;
+  text-align: right;
 }
 
 /* ---------- Grid ---------- */
