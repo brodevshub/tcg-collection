@@ -7,12 +7,14 @@
     "coleccion": "MEP Black Star Promos",
     "codigo": "MEP",
     "numero": "79",
-    "laTengo": false,
+    "laTengo": true,
     "idiomasDisponibles": [
       "🇬🇧",
       "🇪🇸"
     ],
-    "idiomasQueTengo": [],
+    "idiomasQueTengo": [
+      "🇪🇸"
+    ],
     "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/MEP-Black-Star-Promos/Charmeleon-MEP079",
     "precioMin": 0.2
   },
@@ -554,7 +556,7 @@
     ],
     "idiomasQueTengo": [],
     "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Pokemon-Card-151/Charmeleon-V2-sv2a169",
-    "precioMin": 11.99
+    "precioMin": 13
   },
   {
     "id": "pokemon-card-151-charmeleon-v1-sv2a005",
@@ -619,7 +621,7 @@
       "🇰🇷"
     ],
     "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Pokemon-Card-151/Charmander-V2-sv2a168",
-    "precioMin": 19.4
+    "precioMin": 23.9
   },
   {
     "id": "pokemon-card-151-charmander-v1-sv2a004",

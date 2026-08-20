@@ -15,9 +15,10 @@ const CARDMARKET_LANG_IDS: Record<string, string> = {
 }
 
 function cardmarketLink(card: Card): string {
-  const ids = card.idiomasDisponibles
-    .map((flag) => CARDMARKET_LANG_IDS[flag])
-    .filter(Boolean)
+  // Si está disponible en japonés, se busca solo en japonés
+  const ids = card.idiomasDisponibles.includes('🇯🇵')
+    ? [CARDMARKET_LANG_IDS['🇯🇵']]
+    : card.idiomasDisponibles.map((flag) => CARDMARKET_LANG_IDS[flag]).filter(Boolean)
   // Mismo filtro con el que se scrapea precioMin: estado mínimo Excellent
   const params = ['minCondition=3']
   if (ids.length) params.push(`language=${ids.join(',')}`)
