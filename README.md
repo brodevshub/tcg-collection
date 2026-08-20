@@ -15,9 +15,12 @@ npm run dev
 
 ## Imágenes
 
+Las imágenes viven en `public/cards/<id>.jpg` (ya descargadas y commiteadas). Para re-descargarlas:
+
 ```bash
-pip install cloudscraper beautifulsoup4
-python3 scripts/download_images.py
+node scripts/download_images.mjs
 ```
 
-Descarga las imágenes desde Cardmarket a `public/cards/<id>.jpg`. Es resumible: si Cloudflare bloquea alguna, relanza el script y reintenta solo las que faltan. Las cartas sin imagen muestran un placeholder.
+Usa `scripts/image-map.json` (id de carta → URL en el CDN de Cardmarket) con un Referer de cardmarket.com, que es lo único que exige su CDN. Es resumible: salta las que ya existen.
+
+Ojo: las páginas de producto de Cardmarket están detrás de Cloudflare y no se pueden scrapear con clientes headless (curl/cloudscraper reciben 403). Si se añaden cartas nuevas, el `image-map.json` hay que regenerarlo desde un navegador real (fetch same-origin del og:image desde una pestaña de cardmarket.com). Las cartas sin imagen muestran un placeholder.
