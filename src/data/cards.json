@@ -1,0 +1,1820 @@
+[
+  {
+    "id": "mep-black-star-promos-charmeleon-mep079",
+    "nombre": "Charmeleon",
+    "pokemon": "Charmeleon",
+    "orden": 167.5,
+    "coleccion": "MEP Black Star Promos",
+    "codigo": "MEP",
+    "numero": "79",
+    "laTengo": false,
+    "laQuiero": true,
+    "idiomasDisponibles": [
+      "🇬🇧",
+      "🇪🇸"
+    ],
+    "idiomasQueTengo": [],
+    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/MEP-Black-Star-Promos/Charmeleon-MEP079"
+  },
+  {
+    "id": "mep-black-star-promos-charmander-mep038",
+    "nombre": "Charmander",
+    "pokemon": "Charmander",
+    "orden": 167,
+    "coleccion": "MEP Black Star Promos",
+    "codigo": "MEP",
+    "numero": "38",
+    "laTengo": true,
+    "laQuiero": false,
+    "idiomasDisponibles": [
+      "🇬🇧",
+      "🇪🇸"
+    ],
+    "idiomasQueTengo": [
+      "🇪🇸"
+    ],
+    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/MEP-Black-Star-Promos/Charmander-MEP038"
+  },
+  {
+    "id": "ascended-heroes-additionals-charmeleon-v2-xasc021",
+    "nombre": "Charmeleon",
+    "pokemon": "Charmeleon",
+    "orden": 166.501,
+    "coleccion": "Héroes Ascendentes: Adicionales",
+    "codigo": "xASC",
+    "numero": "21",
+    "laTengo": true,
+    "laQuiero": false,
+    "idiomasDisponibles": [
+      "🇬🇧",
+      "🇪🇸"
+    ],
+    "idiomasQueTengo": [
+      "🇪🇸"
+    ],
+    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Ascended-Heroes-Additionals/Charmeleon-V2-xASC021"
+  },
+  {
+    "id": "ascended-heroes-additionals-charmeleon-v1-xasc021",
+    "nombre": "Charmeleon",
+    "pokemon": "Charmeleon",
+    "orden": 166.5,
+    "coleccion": "Héroes Ascendentes: Adicionales",
+    "codigo": "xASC",
+    "numero": "21",
+    "laTengo": true,
+    "laQuiero": false,
+    "idiomasDisponibles": [
+      "🇬🇧",
+      "🇪🇸"
+    ],
+    "idiomasQueTengo": [
+      "🇪🇸"
+    ],
+    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Ascended-Heroes-Additionals/Charmeleon-V1-xASC021"
+  },
+  {
+    "id": "ascended-heroes-additionals-charmander-v2-xasc020",
+    "nombre": "Charmander",
+    "pokemon": "Charmander",
+    "orden": 166,
+    "coleccion": "Héroes Ascendentes: Adicionales",
+    "codigo": "xASC",
+    "numero": "20",
+    "laTengo": true,
+    "laQuiero": false,
+    "idiomasDisponibles": [
+      "🇬🇧",
+      "🇪🇸"
+    ],
+    "idiomasQueTengo": [
+      "🇪🇸"
+    ],
+    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Ascended-Heroes-Additionals/Charmander-V2-xASC020"
+  },
+  {
+    "id": "ascended-heroes-additionals-charmander-v3-xasc020",
+    "nombre": "Charmander",
+    "pokemon": "Charmander",
+    "orden": 165,
+    "coleccion": "Héroes Ascendentes: Adicionales",
+    "codigo": "xASC",
+    "numero": "20",
+    "laTengo": true,
+    "laQuiero": false,
+    "idiomasDisponibles": [
+      "🇬🇧",
+      "🇪🇸"
+    ],
+    "idiomasQueTengo": [
+      "🇪🇸"
+    ],
+    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Ascended-Heroes-Additionals/Charmander-V3-xASC020"
+  },
+  {
+    "id": "ascended-heroes-additionals-charmander-v1-xasc020",
+    "nombre": "Charmander",
+    "pokemon": "Charmander",
+    "orden": 164,
+    "coleccion": "Héroes Ascendentes: Adicionales",
+    "codigo": "xASC",
+    "numero": "20",
+    "laTengo": true,
+    "laQuiero": false,
+    "idiomasDisponibles": [
+      "🇬🇧",
+      "🇪🇸"
+    ],
+    "idiomasQueTengo": [
+      "🇪🇸"
+    ],
+    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Ascended-Heroes-Additionals/Charmander-V1-xASC020"
+  },
+  {
+    "id": "ascended-heroes-charmeleon-asc021",
+    "nombre": "Charmeleon",
+    "pokemon": "Charmeleon",
+    "orden": 163.5,
+    "coleccion": "Héroes Ascendentes",
+    "codigo": "ASC",
+    "numero": "21",
+    "laTengo": true,
+    "laQuiero": false,
+    "idiomasDisponibles": [
+      "🇬🇧",
+      "🇪🇸"
+    ],
+    "idiomasQueTengo": [
+      "🇪🇸"
+    ],
+    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Ascended-Heroes/Charmeleon-ASC021"
+  },
+  {
+    "id": "ascended-heroes-charmander-asc020",
+    "nombre": "Charmander",
+    "pokemon": "Charmander",
+    "orden": 163,
+    "coleccion": "Héroes Ascendentes",
+    "codigo": "ASC",
+    "numero": "20",
+    "laTengo": true,
+    "laQuiero": false,
+    "idiomasDisponibles": [
+      "🇬🇧",
+      "🇪🇸"
+    ],
+    "idiomasQueTengo": [
+      "🇪🇸"
+    ],
+    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Ascended-Heroes/Charmander-ASC020"
+  },
+  {
+    "id": "phantasmal-flames-charmeleon-pfl012",
+    "nombre": "Charmeleon",
+    "pokemon": "Charmeleon",
+    "orden": 157.5,
+    "coleccion": "Fuegos Fantasmales",
+    "codigo": "PFL",
+    "numero": "12",
+    "laTengo": true,
+    "laQuiero": false,
+    "idiomasDisponibles": [
+      "🇬🇧",
+      "🇪🇸"
+    ],
+    "idiomasQueTengo": [
+      "🇪🇸"
+    ],
+    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Phantasmal-Flames/Charmeleon-PFL012"
+  },
+  {
+    "id": "phantasmal-flames-charmander-pfl011",
+    "nombre": "Charmander",
+    "pokemon": "Charmander",
+    "orden": 157,
+    "coleccion": "Fuegos Fantasmales",
+    "codigo": "PFL",
+    "numero": "11",
+    "laTengo": true,
+    "laQuiero": false,
+    "idiomasDisponibles": [
+      "🇬🇧",
+      "🇪🇸"
+    ],
+    "idiomasQueTengo": [
+      "🇪🇸"
+    ],
+    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Phantasmal-Flames/Charmander-PFL011"
+  },
+  {
+    "id": "scarlet-violet-simplified-chinese-promos-charmander-v1-sv-pcs067",
+    "nombre": "Charmander",
+    "pokemon": "Charmander",
+    "orden": 150,
+    "coleccion": "Scarlet & Violet Simplified Chinese Promos",
+    "codigo": "SV-P/CS",
+    "numero": "67",
+    "laTengo": false,
+    "laQuiero": true,
+    "idiomasDisponibles": [
+      "🇨🇳"
+    ],
+    "idiomasQueTengo": [],
+    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Scarlet-Violet-Simplified-Chinese-Promos/Charmander-V1-SV-PCS067"
+  },
+  {
+    "id": "151-charmeleon-v2-mew169",
+    "nombre": "Charmeleon",
+    "pokemon": "Charmeleon",
+    "orden": 142.503,
+    "coleccion": "151",
+    "codigo": "MEW",
+    "numero": "169",
+    "laTengo": false,
+    "laQuiero": true,
+    "idiomasDisponibles": [
+      "🇬🇧",
+      "🇪🇸"
+    ],
+    "idiomasQueTengo": [],
+    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/151/Charmeleon-V2-MEW169"
+  },
+  {
+    "id": "151-charmeleon-v5-mew005",
+    "nombre": "Charmeleon",
+    "pokemon": "Charmeleon",
+    "orden": 142.502,
+    "coleccion": "151",
+    "codigo": "MEW",
+    "numero": "5",
+    "laTengo": false,
+    "laQuiero": true,
+    "idiomasDisponibles": [
+      "🇬🇧",
+      "🇪🇸"
+    ],
+    "idiomasQueTengo": [],
+    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/151/Charmeleon-V5-MEW005"
+  },
+  {
+    "id": "151-charmeleon-v1-mew005",
+    "nombre": "Charmeleon",
+    "pokemon": "Charmeleon",
+    "orden": 142.501,
+    "coleccion": "151",
+    "codigo": "MEW",
+    "numero": "5",
+    "laTengo": true,
+    "laQuiero": false,
+    "idiomasDisponibles": [
+      "🇬🇧",
+      "🇪🇸"
+    ],
+    "idiomasQueTengo": [],
+    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/151/Charmeleon-V1-MEW005"
+  },
+  {
+    "id": "brave-stars-charm-charmeleon-pkmschcs5ac-002",
+    "nombre": "Charmeleon",
+    "pokemon": "Charmeleon",
+    "orden": 139.5,
+    "coleccion": "Brave Stars - Charm",
+    "codigo": "CS5aC",
+    "numero": "2",
+    "laTengo": false,
+    "laQuiero": true,
+    "idiomasDisponibles": [
+      "🇨🇳"
+    ],
+    "idiomasQueTengo": [],
+    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Brave-Stars-Charm/Charmeleon-PKMSCHCS5aC-002"
+  },
+  {
+    "id": "brave-stars-charm-charmander-pkmschcs5ac-001",
+    "nombre": "Charmander",
+    "pokemon": "Charmander",
+    "orden": 139,
+    "coleccion": "Brave Stars - Charm",
+    "codigo": "CS5aC",
+    "numero": "1",
+    "laTengo": false,
+    "laQuiero": true,
+    "idiomasDisponibles": [
+      "🇨🇳"
+    ],
+    "idiomasQueTengo": [],
+    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Brave-Stars-Charm/Charmander-PKMSCHCS5aC-001"
+  },
+  {
+    "id": "paldean-fates-charmeleon-v2-paf110",
+    "nombre": "Charmeleon",
+    "pokemon": "Charmeleon",
+    "orden": 135.501,
+    "coleccion": "Destinos de Paldea",
+    "codigo": "PAF",
+    "numero": "110",
+    "laTengo": true,
+    "laQuiero": false,
+    "idiomasDisponibles": [
+      "🇬🇧",
+      "🇪🇸"
+    ],
+    "idiomasQueTengo": [
+      "🇬🇧"
+    ],
+    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Paldean-Fates/Charmeleon-V2-PAF110"
+  },
+  {
+    "id": "paldean-fates-charmander-v2-paf109",
+    "nombre": "Charmander",
+    "pokemon": "Charmander",
+    "orden": 132,
+    "coleccion": "Destinos de Paldea",
+    "codigo": "PAF",
+    "numero": "109",
+    "laTengo": false,
+    "laQuiero": true,
+    "idiomasDisponibles": [
+      "🇬🇧",
+      "🇪🇸"
+    ],
+    "idiomasQueTengo": [],
+    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Paldean-Fates/Charmander-V2-PAF109"
+  },
+  {
+    "id": "obsidian-flames-charmeleon-v2-obf027",
+    "nombre": "Charmeleon Holo",
+    "pokemon": "Charmeleon",
+    "orden": 120.501,
+    "coleccion": "Llamas Obsidianas",
+    "codigo": "OBF",
+    "numero": "27",
+    "laTengo": true,
+    "laQuiero": false,
+    "idiomasDisponibles": [
+      "🇬🇧",
+      "🇪🇸"
+    ],
+    "idiomasQueTengo": [
+      "🇬🇧"
+    ],
+    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Obsidian-Flames/Charmeleon-V2-OBF027"
+  },
+  {
+    "id": "obsidian-flames-charmeleon-v1-obf027",
+    "nombre": "Charmeleon",
+    "pokemon": "Charmeleon",
+    "orden": 120.5,
+    "coleccion": "Llamas Obsidianas",
+    "codigo": "OBF",
+    "numero": "27",
+    "laTengo": true,
+    "laQuiero": false,
+    "idiomasDisponibles": [
+      "🇬🇧",
+      "🇪🇸"
+    ],
+    "idiomasQueTengo": [
+      "🇬🇧"
+    ],
+    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Obsidian-Flames/Charmeleon-V1-OBF027"
+  },
+  {
+    "id": "obsidian-flames-charmander-v2-obf026",
+    "nombre": "Charmander Holo",
+    "pokemon": "Charmander",
+    "orden": 120.1,
+    "coleccion": "Llamas Obsidianas",
+    "codigo": "OBF",
+    "numero": "26",
+    "laTengo": true,
+    "laQuiero": false,
+    "idiomasDisponibles": [
+      "🇬🇧",
+      "🇪🇸"
+    ],
+    "idiomasQueTengo": [],
+    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Obsidian-Flames/Charmander-V2-OBF026"
+  },
+  {
+    "id": "obsidian-flames-charmander-v1-obf026",
+    "nombre": "Charmander",
+    "pokemon": "Charmander",
+    "orden": 120,
+    "coleccion": "Llamas Obsidianas",
+    "codigo": "OBF",
+    "numero": "26",
+    "laTengo": true,
+    "laQuiero": false,
+    "idiomasDisponibles": [
+      "🇬🇧",
+      "🇪🇸"
+    ],
+    "idiomasQueTengo": [],
+    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Obsidian-Flames/Charmander-V1-OBF026"
+  },
+  {
+    "id": "my-first-battle-charmeleon-mfb",
+    "nombre": "Charmeleon",
+    "pokemon": "Charmeleon",
+    "orden": 119.5,
+    "coleccion": "Mi Primer Combate",
+    "codigo": "MFB",
+    "numero": null,
+    "laTengo": true,
+    "laQuiero": false,
+    "idiomasDisponibles": [
+      "🇬🇧",
+      "🇪🇸"
+    ],
+    "idiomasQueTengo": [],
+    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/My-First-Battle/Charmeleon-MFB"
+  },
+  {
+    "id": "my-first-battle-charmander-v1-mfb",
+    "nombre": "Charmander",
+    "pokemon": "Charmander",
+    "orden": 118,
+    "coleccion": "Mi Primer Combate",
+    "codigo": "MFB",
+    "numero": null,
+    "laTengo": false,
+    "laQuiero": true,
+    "idiomasDisponibles": [
+      "🇬🇧",
+      "🇪🇸"
+    ],
+    "idiomasQueTengo": [],
+    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/My-First-Battle/Charmander-V1-MFB"
+  },
+  {
+    "id": "sv-black-star-promos-charmander-svp047",
+    "nombre": "Charmander",
+    "pokemon": "Charmander",
+    "orden": 117.1,
+    "coleccion": "SV Black Star Promos",
+    "codigo": "SVP",
+    "numero": "47",
+    "laTengo": false,
+    "laQuiero": true,
+    "idiomasDisponibles": [
+      "🇬🇧",
+      "🇪🇸"
+    ],
+    "idiomasQueTengo": [],
+    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/SV-Black-Star-Promos/Charmander-SVP047"
+  },
+  {
+    "id": "151-charmander-v2-mew168",
+    "nombre": "Charmander",
+    "pokemon": "Charmander",
+    "orden": 117,
+    "coleccion": "151",
+    "codigo": "MEW",
+    "numero": "168",
+    "laTengo": true,
+    "laQuiero": false,
+    "idiomasDisponibles": [
+      "🇬🇧",
+      "🇪🇸"
+    ],
+    "idiomasQueTengo": [
+      "🇬🇧"
+    ],
+    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/151/Charmander-V2-MEW168"
+  },
+  {
+    "id": "151-charmander-v4-mew004",
+    "nombre": "Charmander",
+    "pokemon": "Charmander",
+    "orden": 116,
+    "coleccion": "151",
+    "codigo": "MEW",
+    "numero": "4",
+    "laTengo": false,
+    "laQuiero": true,
+    "idiomasDisponibles": [
+      "🇬🇧",
+      "🇪🇸"
+    ],
+    "idiomasQueTengo": [],
+    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/151/Charmander-V4-MEW004"
+  },
+  {
+    "id": "151-charmander-v1-mew004",
+    "nombre": "Charmander",
+    "pokemon": "Charmander",
+    "orden": 115,
+    "coleccion": "151",
+    "codigo": "MEW",
+    "numero": "4",
+    "laTengo": false,
+    "laQuiero": true,
+    "idiomasDisponibles": [
+      "🇬🇧",
+      "🇪🇸"
+    ],
+    "idiomasQueTengo": [],
+    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/151/Charmander-V1-MEW004"
+  },
+  {
+    "id": "sv-black-star-promos-charmander-v1-svp044",
+    "nombre": "Charmander",
+    "pokemon": "Charmander",
+    "orden": 109,
+    "coleccion": "SV Black Star Promos",
+    "codigo": "SVP",
+    "numero": "44",
+    "laTengo": true,
+    "laQuiero": false,
+    "idiomasDisponibles": [
+      "🇬🇧",
+      "🇪🇸"
+    ],
+    "idiomasQueTengo": [
+      "🇪🇸"
+    ],
+    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/SV-Black-Star-Promos/Charmander-V1-SVP044"
+  },
+  {
+    "id": "pokemon-card-151-charmeleon-v2-sv2a169",
+    "nombre": "Charmeleon",
+    "pokemon": "Charmeleon",
+    "orden": 104.503,
+    "coleccion": "Pokémon Card 151",
+    "codigo": "sv2a",
+    "numero": "169",
+    "laTengo": false,
+    "laQuiero": true,
+    "idiomasDisponibles": [
+      "🇯🇵",
+      "🇰🇷",
+      "🇹🇼",
+      "🇹🇭",
+      "🇮🇩"
+    ],
+    "idiomasQueTengo": [],
+    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Pokemon-Card-151/Charmeleon-V2-sv2a169"
+  },
+  {
+    "id": "pokemon-card-151-charmeleon-v1-sv2a005",
+    "nombre": "Charmeleon Reverse",
+    "pokemon": "Charmeleon",
+    "orden": 104.502,
+    "coleccion": "Pokémon Card 151",
+    "codigo": "sv2a",
+    "numero": "5",
+    "laTengo": false,
+    "laQuiero": true,
+    "idiomasDisponibles": [
+      "🇯🇵",
+      "🇰🇷",
+      "🇹🇼",
+      "🇹🇭",
+      "🇮🇩"
+    ],
+    "idiomasQueTengo": [],
+    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Pokemon-Card-151/Charmeleon-V1-sv2a005"
+  },
+  {
+    "id": "pokemon-card-151-charmeleon-v1-sv2a005-2",
+    "nombre": "Charmeleon",
+    "pokemon": "Charmeleon",
+    "orden": 104.501,
+    "coleccion": "Pokémon Card 151",
+    "codigo": "sv2a",
+    "numero": "5",
+    "laTengo": true,
+    "laQuiero": false,
+    "idiomasDisponibles": [
+      "🇯🇵",
+      "🇰🇷",
+      "🇹🇼",
+      "🇹🇭",
+      "🇮🇩"
+    ],
+    "idiomasQueTengo": [
+      "🇯🇵",
+      "🇰🇷"
+    ],
+    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Pokemon-Card-151/Charmeleon-V1-sv2a005"
+  },
+  {
+    "id": "pokemon-card-151-charmander-v2-sv2a168",
+    "nombre": "Charmander",
+    "pokemon": "Charmander",
+    "orden": 104,
+    "coleccion": "Pokémon Card 151",
+    "codigo": "sv2a",
+    "numero": "168",
+    "laTengo": true,
+    "laQuiero": false,
+    "idiomasDisponibles": [
+      "🇯🇵",
+      "🇰🇷",
+      "🇹🇼",
+      "🇹🇭",
+      "🇮🇩"
+    ],
+    "idiomasQueTengo": [
+      "🇰🇷"
+    ],
+    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Pokemon-Card-151/Charmander-V2-sv2a168"
+  },
+  {
+    "id": "pokemon-card-151-charmander-v1-sv2a004",
+    "nombre": "Charmander Reverse",
+    "pokemon": "Charmander",
+    "orden": 103.1,
+    "coleccion": "Pokémon Card 151",
+    "codigo": "sv2a",
+    "numero": "4",
+    "laTengo": true,
+    "laQuiero": false,
+    "idiomasDisponibles": [
+      "🇯🇵",
+      "🇰🇷",
+      "🇹🇼",
+      "🇹🇭",
+      "🇮🇩"
+    ],
+    "idiomasQueTengo": [
+      "🇰🇷"
+    ],
+    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Pokemon-Card-151/Charmander-V1-sv2a004"
+  },
+  {
+    "id": "pokemon-card-151-charmander-v1-sv2a004-2",
+    "nombre": "Charmander",
+    "pokemon": "Charmander",
+    "orden": 103,
+    "coleccion": "Pokémon Card 151",
+    "codigo": "sv2a",
+    "numero": "4",
+    "laTengo": true,
+    "laQuiero": false,
+    "idiomasDisponibles": [
+      "🇯🇵",
+      "🇰🇷",
+      "🇹🇼",
+      "🇹🇭",
+      "🇮🇩"
+    ],
+    "idiomasQueTengo": [
+      "🇯🇵",
+      "🇰🇷"
+    ],
+    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Pokemon-Card-151/Charmander-V1-sv2a004"
+  },
+  {
+    "id": "swsh-black-star-promos-charmander-swsh232",
+    "nombre": "Charmander",
+    "pokemon": "Charmander",
+    "orden": 97,
+    "coleccion": "SWSH Black Star Promos",
+    "codigo": "SWSH",
+    "numero": "232",
+    "laTengo": true,
+    "laQuiero": false,
+    "idiomasDisponibles": [
+      "🇬🇧",
+      "🇪🇸"
+    ],
+    "idiomasQueTengo": [
+      "🇬🇧"
+    ],
+    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/SWSH-Black-Star-Promos/Charmander-SWSH232"
+  },
+  {
+    "id": "pokemon-go-charmeleon-pgo009",
+    "nombre": "Charmeleon Reverse",
+    "pokemon": "Charmeleon",
+    "orden": 96.6,
+    "coleccion": "Pokémon GO",
+    "codigo": "PGO",
+    "numero": "9",
+    "laTengo": true,
+    "laQuiero": false,
+    "idiomasDisponibles": [
+      "🇬🇧",
+      "🇪🇸"
+    ],
+    "idiomasQueTengo": [
+      "🇪🇸"
+    ],
+    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Pokemon-GO/Charmeleon-PGO009"
+  },
+  {
+    "id": "pokemon-go-charmeleon-pgo009-2",
+    "nombre": "Charmeleon",
+    "pokemon": "Charmeleon",
+    "orden": 96.5,
+    "coleccion": "Pokémon GO",
+    "codigo": "PGO",
+    "numero": "9",
+    "laTengo": true,
+    "laQuiero": false,
+    "idiomasDisponibles": [
+      "🇬🇧",
+      "🇪🇸"
+    ],
+    "idiomasQueTengo": [
+      "🇪🇸"
+    ],
+    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Pokemon-GO/Charmeleon-PGO009"
+  },
+  {
+    "id": "pokemon-go-charmander-pgo008",
+    "nombre": "Charmander Reverse",
+    "pokemon": "Charmander",
+    "orden": 96.1,
+    "coleccion": "Pokémon GO",
+    "codigo": "PGO",
+    "numero": "8",
+    "laTengo": true,
+    "laQuiero": false,
+    "idiomasDisponibles": [
+      "🇬🇧",
+      "🇪🇸"
+    ],
+    "idiomasQueTengo": [
+      "🇪🇸"
+    ],
+    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Pokemon-GO/Charmander-PGO008"
+  },
+  {
+    "id": "pokemon-go-charmander-pgo008-2",
+    "nombre": "Charmander",
+    "pokemon": "Charmander",
+    "orden": 96,
+    "coleccion": "Pokémon GO",
+    "codigo": "PGO",
+    "numero": "8",
+    "laTengo": true,
+    "laQuiero": false,
+    "idiomasDisponibles": [
+      "🇬🇧",
+      "🇪🇸"
+    ],
+    "idiomasQueTengo": [
+      "🇪🇸"
+    ],
+    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Pokemon-GO/Charmander-PGO008"
+  },
+  {
+    "id": "vivid-voltage-charmeleon-viv24",
+    "nombre": "Charmeleon",
+    "pokemon": "Charmeleon",
+    "orden": 87.5,
+    "coleccion": "Voltaje Vívido",
+    "codigo": "VIV",
+    "numero": "24",
+    "laTengo": true,
+    "laQuiero": false,
+    "idiomasDisponibles": [
+      "🇬🇧",
+      "🇪🇸"
+    ],
+    "idiomasQueTengo": [],
+    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Vivid-Voltage/Charmeleon-VIV24"
+  },
+  {
+    "id": "vivid-voltage-charmander-viv23",
+    "nombre": "Charmander",
+    "pokemon": "Charmander",
+    "orden": 87,
+    "coleccion": "Voltaje Vívido",
+    "codigo": "VIV",
+    "numero": "23",
+    "laTengo": true,
+    "laQuiero": false,
+    "idiomasDisponibles": [
+      "🇬🇧",
+      "🇪🇸"
+    ],
+    "idiomasQueTengo": [],
+    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Vivid-Voltage/Charmander-VIV23"
+  },
+  {
+    "id": "hidden-fates-charmeleon-v1-hif8",
+    "nombre": "Charmeleon",
+    "pokemon": "Charmeleon",
+    "orden": 78.501,
+    "coleccion": "Destinos Ocultos",
+    "codigo": "HIF",
+    "numero": "8",
+    "laTengo": true,
+    "laQuiero": false,
+    "idiomasDisponibles": [
+      "🇬🇧",
+      "🇪🇸"
+    ],
+    "idiomasQueTengo": [],
+    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Hidden-Fates/Charmeleon-V1-HIF8"
+  },
+  {
+    "id": "hidden-fates-charmeleon-hifsv7",
+    "nombre": "Charmeleon",
+    "pokemon": "Charmeleon",
+    "orden": 78.5,
+    "coleccion": "Destinos Ocultos",
+    "codigo": "HIF",
+    "numero": "SV7",
+    "laTengo": false,
+    "laQuiero": true,
+    "idiomasDisponibles": [
+      "🇬🇧",
+      "🇪🇸"
+    ],
+    "idiomasQueTengo": [],
+    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Hidden-Fates/Charmeleon-HIFSV7"
+  },
+  {
+    "id": "hidden-fates-charmander-hifsv6",
+    "nombre": "Charmander",
+    "pokemon": "Charmander",
+    "orden": 78,
+    "coleccion": "Destinos Ocultos",
+    "codigo": "HIF",
+    "numero": "SV6",
+    "laTengo": false,
+    "laQuiero": true,
+    "idiomasDisponibles": [
+      "🇬🇧",
+      "🇪🇸"
+    ],
+    "idiomasQueTengo": [],
+    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Hidden-Fates/Charmander-HIFSV6"
+  },
+  {
+    "id": "hidden-fates-charmander-hif7",
+    "nombre": "Charmander",
+    "pokemon": "Charmander",
+    "orden": 77,
+    "coleccion": "Destinos Ocultos",
+    "codigo": "HIF",
+    "numero": "7",
+    "laTengo": false,
+    "laQuiero": true,
+    "idiomasDisponibles": [
+      "🇬🇧",
+      "🇪🇸"
+    ],
+    "idiomasQueTengo": [],
+    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Hidden-Fates/Charmander-HIF7"
+  },
+  {
+    "id": "detective-pikachu-charmander-det4",
+    "nombre": "Charmander",
+    "pokemon": "Charmander",
+    "orden": 75,
+    "coleccion": "Detective Pikachu",
+    "codigo": "DET",
+    "numero": "4",
+    "laTengo": true,
+    "laQuiero": false,
+    "idiomasDisponibles": [
+      "🇬🇧",
+      "🇪🇸"
+    ],
+    "idiomasQueTengo": [
+      "🇪🇸"
+    ],
+    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Detective-Pikachu/Charmander-DET4"
+  },
+  {
+    "id": "team-up-charmeleon-teu13",
+    "nombre": "Charmeleon",
+    "pokemon": "Charmeleon",
+    "orden": 73.5,
+    "coleccion": "Team Up",
+    "codigo": "TEU",
+    "numero": "13",
+    "laTengo": true,
+    "laQuiero": false,
+    "idiomasDisponibles": [
+      "🇬🇧",
+      "🇪🇸"
+    ],
+    "idiomasQueTengo": [
+      "🇪🇸"
+    ],
+    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Team-Up/Charmeleon-TEU13"
+  },
+  {
+    "id": "team-up-charmander-teu12",
+    "nombre": "Charmander",
+    "pokemon": "Charmander",
+    "orden": 73,
+    "coleccion": "Team Up",
+    "codigo": "TEU",
+    "numero": "12",
+    "laTengo": true,
+    "laQuiero": false,
+    "idiomasDisponibles": [
+      "🇬🇧",
+      "🇪🇸"
+    ],
+    "idiomasQueTengo": [
+      "🇪🇸"
+    ],
+    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Team-Up/Charmander-TEU12"
+  },
+  {
+    "id": "team-up-charmander-teu11",
+    "nombre": "Charmander",
+    "pokemon": "Charmander",
+    "orden": 72,
+    "coleccion": "Team Up",
+    "codigo": "TEU",
+    "numero": "11",
+    "laTengo": false,
+    "laQuiero": true,
+    "idiomasDisponibles": [
+      "🇬🇧",
+      "🇪🇸"
+    ],
+    "idiomasQueTengo": [],
+    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Team-Up/Charmander-TEU11"
+  },
+  {
+    "id": "dragon-majesty-charmeleon-drm2",
+    "nombre": "Charmeleon",
+    "pokemon": "Charmeleon",
+    "orden": 68.5,
+    "coleccion": "Majestad de Dragones",
+    "codigo": "DRM",
+    "numero": "2",
+    "laTengo": false,
+    "laQuiero": true,
+    "idiomasDisponibles": [
+      "🇬🇧",
+      "🇪🇸"
+    ],
+    "idiomasQueTengo": [],
+    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Dragon-Majesty/Charmeleon-DRM2"
+  },
+  {
+    "id": "dragon-majesty-charmander-drm1",
+    "nombre": "Charmander",
+    "pokemon": "Charmander",
+    "orden": 68,
+    "coleccion": "Majestad de Dragones",
+    "codigo": "DRM",
+    "numero": "1",
+    "laTengo": true,
+    "laQuiero": false,
+    "idiomasDisponibles": [
+      "🇬🇧",
+      "🇪🇸"
+    ],
+    "idiomasQueTengo": [
+      "🇪🇸"
+    ],
+    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Dragon-Majesty/Charmander-DRM1"
+  },
+  {
+    "id": "burning-shadows-charmeleon-bus19",
+    "nombre": "Charmeleon",
+    "pokemon": "Charmeleon",
+    "orden": 64.5,
+    "coleccion": "Sombras Ardientes",
+    "codigo": "BUS",
+    "numero": "19",
+    "laTengo": true,
+    "laQuiero": false,
+    "idiomasDisponibles": [
+      "🇬🇧",
+      "🇪🇸"
+    ],
+    "idiomasQueTengo": [],
+    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Burning-Shadows/Charmeleon-BUS19"
+  },
+  {
+    "id": "burning-shadows-charmander-v2-bus18a",
+    "nombre": "Charmander",
+    "pokemon": "Charmander",
+    "orden": 64,
+    "coleccion": "Sombras Ardientes",
+    "codigo": "BUS",
+    "numero": "18a",
+    "laTengo": false,
+    "laQuiero": true,
+    "idiomasDisponibles": [
+      "🇬🇧",
+      "🇪🇸"
+    ],
+    "idiomasQueTengo": [],
+    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Burning-Shadows/Charmander-V2-BUS18a"
+  },
+  {
+    "id": "burning-shadows-charmander-v1-bus18",
+    "nombre": "Charmander",
+    "pokemon": "Charmander",
+    "orden": 63,
+    "coleccion": "Sombras Ardientes",
+    "codigo": "BUS",
+    "numero": "18",
+    "laTengo": true,
+    "laQuiero": false,
+    "idiomasDisponibles": [
+      "🇬🇧",
+      "🇪🇸"
+    ],
+    "idiomasQueTengo": [
+      "🇬🇧",
+      "🇪🇸"
+    ],
+    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Burning-Shadows/Charmander-V1-BUS18"
+  },
+  {
+    "id": "generations-charmeleon-genrc4",
+    "nombre": "Charmeleon",
+    "pokemon": "Charmeleon",
+    "orden": 56.5,
+    "coleccion": "Generaciones",
+    "codigo": "GEN",
+    "numero": "RC4",
+    "laTengo": false,
+    "laQuiero": true,
+    "idiomasDisponibles": [
+      "🇬🇧",
+      "🇪🇸"
+    ],
+    "idiomasQueTengo": [],
+    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Generations/Charmeleon-GENRC4"
+  },
+  {
+    "id": "generations-charmander-genrc3",
+    "nombre": "Charmander",
+    "pokemon": "Charmander",
+    "orden": 56,
+    "coleccion": "Generaciones",
+    "codigo": "GEN",
+    "numero": "RC3",
+    "laTengo": false,
+    "laQuiero": true,
+    "idiomasDisponibles": [
+      "🇬🇧",
+      "🇪🇸"
+    ],
+    "idiomasQueTengo": [],
+    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Generations/Charmander-GENRC3"
+  },
+  {
+    "id": "legendary-treasures-charmeleon-ltr18",
+    "nombre": "Charmeleon",
+    "pokemon": "Charmeleon",
+    "orden": 54.5,
+    "coleccion": "Legendary Treasures",
+    "codigo": "LTR",
+    "numero": "18",
+    "laTengo": false,
+    "laQuiero": true,
+    "idiomasDisponibles": [],
+    "idiomasQueTengo": [],
+    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Legendary-Treasures/Charmeleon-LTR18"
+  },
+  {
+    "id": "legendary-treasures-charmander-v1-ltr17",
+    "nombre": "Charmander",
+    "pokemon": "Charmander",
+    "orden": 53,
+    "coleccion": "Legendary Treasures",
+    "codigo": "LTR",
+    "numero": "17",
+    "laTengo": false,
+    "laQuiero": true,
+    "idiomasDisponibles": [
+      "🇬🇧"
+    ],
+    "idiomasQueTengo": [],
+    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Legendary-Treasures/Charmander-V1-LTR17"
+  },
+  {
+    "id": "boundaries-crossed-charmeleon-bcr19",
+    "nombre": "Charmeleon",
+    "pokemon": "Charmeleon",
+    "orden": 51.5,
+    "coleccion": "Fronteras Cruzadas",
+    "codigo": "BCR",
+    "numero": "19",
+    "laTengo": false,
+    "laQuiero": true,
+    "idiomasDisponibles": [
+      "🇬🇧",
+      "🇪🇸"
+    ],
+    "idiomasQueTengo": [],
+    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Boundaries-Crossed/Charmeleon-BCR19"
+  },
+  {
+    "id": "boundaries-crossed-charmander-bcr18",
+    "nombre": "Charmander",
+    "pokemon": "Charmander",
+    "orden": 51,
+    "coleccion": "Fronteras Cruzadas",
+    "codigo": "BCR",
+    "numero": "18",
+    "laTengo": false,
+    "laQuiero": true,
+    "idiomasDisponibles": [
+      "🇬🇧",
+      "🇪🇸"
+    ],
+    "idiomasQueTengo": [],
+    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Boundaries-Crossed/Charmander-BCR18"
+  },
+  {
+    "id": "bw-promos-charmander",
+    "nombre": "Charmander",
+    "pokemon": "Charmander",
+    "orden": 49,
+    "coleccion": "BW Promos",
+    "codigo": "BW-P",
+    "numero": "165",
+    "laTengo": false,
+    "laQuiero": true,
+    "idiomasDisponibles": [
+      "🇯🇵",
+      "🇰🇷",
+      "🇹🇼"
+    ],
+    "idiomasQueTengo": [],
+    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/BW-Promos/Charmander"
+  },
+  {
+    "id": "arceus-charmeleon-lv31-ar35",
+    "nombre": "Charmeleon Lv.31",
+    "pokemon": "Charmeleon",
+    "orden": 48.5,
+    "coleccion": "Arceus",
+    "codigo": "AR",
+    "numero": "35",
+    "laTengo": false,
+    "laQuiero": true,
+    "idiomasDisponibles": [
+      "🇬🇧"
+    ],
+    "idiomasQueTengo": [],
+    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Arceus/Charmeleon-Lv31-AR35"
+  },
+  {
+    "id": "arceus-charmander-lv13-ar59",
+    "nombre": "Charmander Lv.13",
+    "pokemon": "Charmander",
+    "orden": 48,
+    "coleccion": "Arceus",
+    "codigo": "AR",
+    "numero": "59",
+    "laTengo": false,
+    "laQuiero": true,
+    "idiomasDisponibles": [
+      "🇬🇧"
+    ],
+    "idiomasQueTengo": [],
+    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Arceus/Charmander-Lv13-AR59"
+  },
+  {
+    "id": "stormfront-charmeleon-lv32-stf102",
+    "nombre": "Charmeleon Lv.32",
+    "pokemon": "Charmeleon",
+    "orden": 46.5,
+    "coleccion": "Frente Tormentoso",
+    "codigo": "STF",
+    "numero": "102",
+    "laTengo": false,
+    "laQuiero": true,
+    "idiomasDisponibles": [
+      "🇬🇧",
+      "🇪🇸"
+    ],
+    "idiomasQueTengo": [],
+    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Stormfront/Charmeleon-Lv32-STF102"
+  },
+  {
+    "id": "stormfront-charmander-lv10-stf101",
+    "nombre": "Charmander Lv.10",
+    "pokemon": "Charmander",
+    "orden": 46,
+    "coleccion": "Frente Tormentoso",
+    "codigo": "STF",
+    "numero": "101",
+    "laTengo": false,
+    "laQuiero": true,
+    "idiomasDisponibles": [
+      "🇬🇧",
+      "🇪🇸"
+    ],
+    "idiomasQueTengo": [],
+    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Stormfront/Charmander-Lv10-STF101"
+  },
+  {
+    "id": "secret-wonders-charmeleon-lv29-sw46",
+    "nombre": "Charmeleon Lv.29",
+    "pokemon": "Charmeleon",
+    "orden": 44.5,
+    "coleccion": "Maravillas Secretas",
+    "codigo": "SW",
+    "numero": "46",
+    "laTengo": false,
+    "laQuiero": true,
+    "idiomasDisponibles": [
+      "🇬🇧",
+      "🇪🇸"
+    ],
+    "idiomasQueTengo": [],
+    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Secret-Wonders/Charmeleon-Lv29-SW46"
+  },
+  {
+    "id": "secret-wonders-charmander-lv8-sw82",
+    "nombre": "Charmander Lv.8",
+    "pokemon": "Charmander",
+    "orden": 44,
+    "coleccion": "Maravillas Secretas",
+    "codigo": "SW",
+    "numero": "82",
+    "laTengo": true,
+    "laQuiero": false,
+    "idiomasDisponibles": [
+      "🇬🇧",
+      "🇪🇸"
+    ],
+    "idiomasQueTengo": [
+      "🇪🇸"
+    ],
+    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Secret-Wonders/Charmander-Lv8-SW82"
+  },
+  {
+    "id": "pop-series-5-charmeleon-delta-species-pop55",
+    "nombre": "Charmeleon δ Delta Species",
+    "pokemon": "Charmeleon",
+    "orden": 41.5,
+    "coleccion": "POP Series 5",
+    "codigo": "POP5",
+    "numero": "5",
+    "laTengo": false,
+    "laQuiero": true,
+    "idiomasDisponibles": [
+      "🇬🇧"
+    ],
+    "idiomasQueTengo": [],
+    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/POP-Series-5/Charmeleon-Delta-Species-POP55"
+  },
+  {
+    "id": "pop-series-5-charmander-delta-species-pop510",
+    "nombre": "Charmander δ Delta Species",
+    "pokemon": "Charmander",
+    "orden": 41,
+    "coleccion": "POP Series 5",
+    "codigo": "POP5",
+    "numero": "10",
+    "laTengo": false,
+    "laQuiero": true,
+    "idiomasDisponibles": [
+      "🇬🇧"
+    ],
+    "idiomasQueTengo": [],
+    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/POP-Series-5/Charmander-Delta-Species-POP510"
+  },
+  {
+    "id": "ex-power-keepers-charmeleon-pk28",
+    "nombre": "Charmeleon",
+    "pokemon": "Charmeleon",
+    "orden": 40.5,
+    "coleccion": "EX Power Keepers",
+    "codigo": "PK",
+    "numero": "28",
+    "laTengo": false,
+    "laQuiero": true,
+    "idiomasDisponibles": [
+      "🇬🇧"
+    ],
+    "idiomasQueTengo": [],
+    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/EX-Power-Keepers/Charmeleon-PK28"
+  },
+  {
+    "id": "ex-power-keepers-charmander-pk48",
+    "nombre": "Charmander",
+    "pokemon": "Charmander",
+    "orden": 40,
+    "coleccion": "EX Power Keepers",
+    "codigo": "PK",
+    "numero": "48",
+    "laTengo": true,
+    "laQuiero": false,
+    "idiomasDisponibles": [
+      "🇬🇧"
+    ],
+    "idiomasQueTengo": [
+      "🇬🇧"
+    ],
+    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/EX-Power-Keepers/Charmander-PK48"
+  },
+  {
+    "id": "dp-promos-charmander-lv9",
+    "nombre": "Charmander Lv.9",
+    "pokemon": "Charmander",
+    "orden": 39,
+    "coleccion": "DP Promos",
+    "codigo": "DP-P",
+    "numero": "124",
+    "laTengo": false,
+    "laQuiero": true,
+    "idiomasDisponibles": [
+      "🇯🇵",
+      "🇰🇷",
+      "🇹🇼"
+    ],
+    "idiomasQueTengo": [],
+    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/DP-Promos/Charmander-Lv9"
+  },
+  {
+    "id": "ex-crystal-guardians-charmeleon-delta-species-cg30",
+    "nombre": "Charmeleon δ Delta Species",
+    "pokemon": "Charmeleon",
+    "orden": 38.501,
+    "coleccion": "EX Crystal Guardians",
+    "codigo": "CG",
+    "numero": "30",
+    "laTengo": false,
+    "laQuiero": true,
+    "idiomasDisponibles": [
+      "🇬🇧"
+    ],
+    "idiomasQueTengo": [],
+    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/EX-Crystal-Guardians/Charmeleon-Delta-Species-CG30"
+  },
+  {
+    "id": "ex-crystal-guardians-charmeleon-cg29",
+    "nombre": "Charmeleon",
+    "pokemon": "Charmeleon",
+    "orden": 38.5,
+    "coleccion": "EX Crystal Guardians",
+    "codigo": "CG",
+    "numero": "29",
+    "laTengo": false,
+    "laQuiero": true,
+    "idiomasDisponibles": [
+      "🇬🇧"
+    ],
+    "idiomasQueTengo": [],
+    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/EX-Crystal-Guardians/Charmeleon-CG29"
+  },
+  {
+    "id": "ex-crystal-guardians-charmander-delta-species-cg49",
+    "nombre": "Charmander δ Delta Species",
+    "pokemon": "Charmander",
+    "orden": 38,
+    "coleccion": "EX Crystal Guardians",
+    "codigo": "CG",
+    "numero": "49",
+    "laTengo": true,
+    "laQuiero": false,
+    "idiomasDisponibles": [
+      "🇬🇧"
+    ],
+    "idiomasQueTengo": [
+      "🇬🇧"
+    ],
+    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/EX-Crystal-Guardians/Charmander-Delta-Species-CG49"
+  },
+  {
+    "id": "ex-crystal-guardians-charmander-cg48",
+    "nombre": "Charmander",
+    "pokemon": "Charmander",
+    "orden": 37,
+    "coleccion": "EX Crystal Guardians",
+    "codigo": "CG",
+    "numero": "48",
+    "laTengo": false,
+    "laQuiero": true,
+    "idiomasDisponibles": [
+      "🇬🇧"
+    ],
+    "idiomasQueTengo": [],
+    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/EX-Crystal-Guardians/Charmander-CG48"
+  },
+  {
+    "id": "ex-delta-species-ditto-ds61",
+    "nombre": "Ditto",
+    "pokemon": "Charmander",
+    "orden": 33,
+    "coleccion": "EX Delta Species",
+    "codigo": "DS",
+    "numero": "61",
+    "laTengo": false,
+    "laQuiero": true,
+    "idiomasDisponibles": [
+      "🇬🇧"
+    ],
+    "idiomasQueTengo": [],
+    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/EX-Delta-Species/Ditto-DS61"
+  },
+  {
+    "id": "ex-delta-species-ditto-ds37",
+    "nombre": "Ditto",
+    "pokemon": "Charmander",
+    "orden": 32,
+    "coleccion": "EX Delta Species",
+    "codigo": "DS",
+    "numero": "37",
+    "laTengo": false,
+    "laQuiero": true,
+    "idiomasDisponibles": [
+      "🇬🇧"
+    ],
+    "idiomasQueTengo": [],
+    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/EX-Delta-Species/Ditto-DS37"
+  },
+  {
+    "id": "ex-team-rocket-returns-charmeleon-trr110",
+    "nombre": "Charmeleon",
+    "pokemon": "Charmeleon",
+    "orden": 29.522,
+    "coleccion": "EX Team Rocket Returns",
+    "codigo": "TRR",
+    "numero": "110",
+    "laTengo": false,
+    "laQuiero": true,
+    "idiomasDisponibles": [
+      "🇬🇧"
+    ],
+    "idiomasQueTengo": [],
+    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/EX-Team-Rocket-Returns/Charmeleon-TRR110"
+  },
+  {
+    "id": "ex-firered-leafgreen-charmeleon-fl31",
+    "nombre": "Charmeleon",
+    "pokemon": "Charmeleon",
+    "orden": 29.5,
+    "coleccion": "EX FireRed & LeafGreen",
+    "codigo": "FL",
+    "numero": "31",
+    "laTengo": true,
+    "laQuiero": false,
+    "idiomasDisponibles": [
+      "🇬🇧"
+    ],
+    "idiomasQueTengo": [],
+    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/EX-FireRed-LeafGreen/Charmeleon-FL31"
+  },
+  {
+    "id": "ex-firered-leafgreen-charmander-fl113",
+    "nombre": "Charmander",
+    "pokemon": "Charmander",
+    "orden": 29,
+    "coleccion": "EX FireRed & LeafGreen",
+    "codigo": "FL",
+    "numero": "113",
+    "laTengo": false,
+    "laQuiero": true,
+    "idiomasDisponibles": [
+      "🇬🇧"
+    ],
+    "idiomasQueTengo": [],
+    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/EX-FireRed-LeafGreen/Charmander-FL113"
+  },
+  {
+    "id": "ex-firered-leafgreen-charmander-fl58",
+    "nombre": "Charmander",
+    "pokemon": "Charmander",
+    "orden": 28,
+    "coleccion": "EX FireRed & LeafGreen",
+    "codigo": "FL",
+    "numero": "58",
+    "laTengo": true,
+    "laQuiero": false,
+    "idiomasDisponibles": [
+      "🇬🇧"
+    ],
+    "idiomasQueTengo": [],
+    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/EX-FireRed-LeafGreen/Charmander-FL58"
+  },
+  {
+    "id": "ex-firered-leafgreen-charmander-fl57",
+    "nombre": "Charmander",
+    "pokemon": "Charmander",
+    "orden": 27,
+    "coleccion": "EX FireRed & LeafGreen",
+    "codigo": "FL",
+    "numero": "57",
+    "laTengo": false,
+    "laQuiero": true,
+    "idiomasDisponibles": [
+      "🇬🇧"
+    ],
+    "idiomasQueTengo": [],
+    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/EX-FireRed-LeafGreen/Charmander-FL57"
+  },
+  {
+    "id": "ex-dragon-charmeleon-v1-dr99",
+    "nombre": "Charmeleon",
+    "pokemon": "Charmeleon",
+    "orden": 23.501,
+    "coleccion": "EX Dragon",
+    "codigo": "DR",
+    "numero": "99",
+    "laTengo": false,
+    "laQuiero": true,
+    "idiomasDisponibles": [
+      "🇬🇧"
+    ],
+    "idiomasQueTengo": [],
+    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/EX-Dragon/Charmeleon-V1-DR99"
+  },
+  {
+    "id": "ex-dragon-charmander-v1-dr98",
+    "nombre": "Charmander",
+    "pokemon": "Charmander",
+    "orden": 22,
+    "coleccion": "EX Dragon",
+    "codigo": "DR",
+    "numero": "98",
+    "laTengo": false,
+    "laQuiero": true,
+    "idiomasDisponibles": [
+      "🇬🇧"
+    ],
+    "idiomasQueTengo": [],
+    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/EX-Dragon/Charmander-V1-DR98"
+  },
+  {
+    "id": "expedition-base-set-charmeleon-ex73",
+    "nombre": "Charmeleon",
+    "pokemon": "Charmeleon",
+    "orden": 19.5,
+    "coleccion": "Expedition Base Set",
+    "codigo": "EX",
+    "numero": "73",
+    "laTengo": false,
+    "laQuiero": true,
+    "idiomasDisponibles": [
+      "🇬🇧"
+    ],
+    "idiomasQueTengo": [],
+    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Expedition-Base-Set/Charmeleon-EX73"
+  },
+  {
+    "id": "expedition-base-set-charmander-ex98",
+    "nombre": "Charmander",
+    "pokemon": "Charmander",
+    "orden": 19,
+    "coleccion": "Expedition Base Set",
+    "codigo": "EX",
+    "numero": "98",
+    "laTengo": false,
+    "laQuiero": true,
+    "idiomasDisponibles": [
+      "🇬🇧"
+    ],
+    "idiomasQueTengo": [],
+    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Expedition-Base-Set/Charmander-EX98"
+  },
+  {
+    "id": "expedition-base-set-charmander-ex97",
+    "nombre": "Charmander",
+    "pokemon": "Charmander",
+    "orden": 18,
+    "coleccion": "Expedition Base Set",
+    "codigo": "EX",
+    "numero": "97",
+    "laTengo": false,
+    "laQuiero": true,
+    "idiomasDisponibles": [
+      "🇬🇧"
+    ],
+    "idiomasQueTengo": [],
+    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Expedition-Base-Set/Charmander-EX97"
+  },
+  {
+    "id": "mcdonalds-original-minimum-pack-charmander",
+    "nombre": "Charmander",
+    "pokemon": "Charmander",
+    "orden": 16,
+    "coleccion": "McDonald's Pokémon-e Minimum Pack",
+    "codigo": "MCDP",
+    "numero": "4",
+    "laTengo": false,
+    "laQuiero": true,
+    "idiomasDisponibles": [
+      "🇯🇵"
+    ],
+    "idiomasQueTengo": [],
+    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/McDonalds-Original-Minimum-Pack/Charmander"
+  },
+  {
+    "id": "t-promos-charmeleon",
+    "nombre": "Charmeleon",
+    "pokemon": "Charmeleon",
+    "orden": 15.512,
+    "coleccion": "T Promos",
+    "codigo": "T-P",
+    "numero": "11",
+    "laTengo": false,
+    "laQuiero": true,
+    "idiomasDisponibles": [
+      "🇯🇵",
+      "🇰🇷",
+      "🇹🇼"
+    ],
+    "idiomasQueTengo": [],
+    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/T-Promos/Charmeleon"
+  },
+  {
+    "id": "pokemon-cardweb-charmeleon-web007",
+    "nombre": "Charmeleon",
+    "pokemon": "Charmeleon",
+    "orden": 13.51,
+    "coleccion": "Pokémon Card web",
+    "codigo": "WEB",
+    "numero": "7",
+    "laTengo": false,
+    "laQuiero": true,
+    "idiomasDisponibles": [
+      "🇯🇵",
+      "🇰🇷",
+      "🇹🇼"
+    ],
+    "idiomasQueTengo": [],
+    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Pokemon-Cardweb/Charmeleon-WEB007"
+  },
+  {
+    "id": "pokemon-cardweb-dark-charmeleon-web022",
+    "nombre": "Dark Charmeleon",
+    "pokemon": "Charmeleon",
+    "orden": 13.509,
+    "coleccion": "Pokémon Card web",
+    "codigo": "WEB",
+    "numero": "22",
+    "laTengo": false,
+    "laQuiero": true,
+    "idiomasDisponibles": [
+      "🇯🇵",
+      "🇰🇷",
+      "🇹🇼"
+    ],
+    "idiomasQueTengo": [],
+    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Pokemon-Cardweb/Dark-Charmeleon-WEB022"
+  },
+  {
+    "id": "gym-challenge-blaines-charmeleon-gc31",
+    "nombre": "Blaine's Charmeleon",
+    "pokemon": "Charmeleon",
+    "orden": 13.5,
+    "coleccion": "Gym Challenge",
+    "codigo": "GC",
+    "numero": "31",
+    "laTengo": true,
+    "laQuiero": false,
+    "idiomasDisponibles": [
+      "🇬🇧"
+    ],
+    "idiomasQueTengo": [
+      "🇬🇧"
+    ],
+    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Gym-Challenge/Blaines-Charmeleon-GC31"
+  },
+  {
+    "id": "gym-challenge-blaines-charmander-gc60",
+    "nombre": "Blaine's Charmander",
+    "pokemon": "Charmander",
+    "orden": 13,
+    "coleccion": "Gym Challenge",
+    "codigo": "GC",
+    "numero": "60",
+    "laTengo": true,
+    "laQuiero": false,
+    "idiomasDisponibles": [
+      "🇬🇧"
+    ],
+    "idiomasQueTengo": [
+      "🇬🇧"
+    ],
+    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Gym-Challenge/Blaines-Charmander-GC60"
+  },
+  {
+    "id": "gym-heroes-blaines-charmander-gh61",
+    "nombre": "Blaine's Charmander",
+    "pokemon": "Charmander",
+    "orden": 12,
+    "coleccion": "Gym Heroes",
+    "codigo": "GH",
+    "numero": "61",
+    "laTengo": false,
+    "laQuiero": true,
+    "idiomasDisponibles": [
+      "🇬🇧"
+    ],
+    "idiomasQueTengo": [],
+    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Gym-Heroes/Blaines-Charmander-GH61"
+  },
+  {
+    "id": "team-rocket-dark-charmeleon-tr32",
+    "nombre": "Dark Charmeleon",
+    "pokemon": "Charmeleon",
+    "orden": 11.5,
+    "coleccion": "Team Rocket",
+    "codigo": "TR",
+    "numero": "32",
+    "laTengo": true,
+    "laQuiero": false,
+    "idiomasDisponibles": [
+      "🇬🇧"
+    ],
+    "idiomasQueTengo": [
+      "🇬🇧"
+    ],
+    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Team-Rocket/Dark-Charmeleon-TR32"
+  },
+  {
+    "id": "team-rocket-charmander-tr50",
+    "nombre": "Charmander",
+    "pokemon": "Charmander",
+    "orden": 11,
+    "coleccion": "Team Rocket",
+    "codigo": "TR",
+    "numero": "50",
+    "laTengo": true,
+    "laQuiero": false,
+    "idiomasDisponibles": [
+      "🇬🇧"
+    ],
+    "idiomasQueTengo": [
+      "🇬🇧"
+    ],
+    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Team-Rocket/Charmander-TR50"
+  },
+  {
+    "id": "base-set-charmeleon-v1-bs24",
+    "nombre": "Charmeleon",
+    "pokemon": "Charmeleon",
+    "orden": 7.501,
+    "coleccion": "Base Set",
+    "codigo": "BS",
+    "numero": "24",
+    "laTengo": true,
+    "laQuiero": false,
+    "idiomasDisponibles": [
+      "🇬🇧",
+      "🇪🇸"
+    ],
+    "idiomasQueTengo": [
+      "🇪🇸"
+    ],
+    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Base-Set/Charmeleon-V1-BS24"
+  },
+  {
+    "id": "base-set-charmander-v1-bs46",
+    "nombre": "Charmander",
+    "pokemon": "Charmander",
+    "orden": 5,
+    "coleccion": "Base Set",
+    "codigo": "BS",
+    "numero": "46",
+    "laTengo": true,
+    "laQuiero": false,
+    "idiomasDisponibles": [
+      "🇬🇧",
+      "🇪🇸"
+    ],
+    "idiomasQueTengo": [
+      "🇪🇸"
+    ],
+    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Base-Set/Charmander-V1-BS46"
+  },
+  {
+    "id": "expansion-sheet-charmander",
+    "nombre": "Charmander",
+    "pokemon": "Charmander",
+    "orden": 4,
+    "coleccion": "Expansion Sheet",
+    "codigo": "EXS",
+    "numero": null,
+    "laTengo": false,
+    "laQuiero": true,
+    "idiomasDisponibles": [
+      "🇯🇵"
+    ],
+    "idiomasQueTengo": [],
+    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Expansion-Sheet/Charmander"
+  },
+  {
+    "id": "unnumbered-promos-charmander-v1",
+    "nombre": "Charmander",
+    "pokemon": "Charmander",
+    "orden": 1,
+    "coleccion": "Unnumbered Promos",
+    "codigo": "UNP",
+    "numero": null,
+    "laTengo": false,
+    "laQuiero": true,
+    "idiomasDisponibles": [
+      "🇯🇵",
+      "🇰🇷",
+      "🇹🇼"
+    ],
+    "idiomasQueTengo": [],
+    "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/Unnumbered-Promos/Charmander-V1"
+  }
+]

@@ -1,0 +1,270 @@
+:root {
+  --bg: #16120f;
+  --bg-card: #221c17;
+  --bg-card-hover: #2a221c;
+  --border: #3a2f26;
+  --text: #f3e9df;
+  --text-dim: #a3948a;
+  --fire: #ff7a1a;
+  --fire-soft: #ffb066;
+  --owned: #4caf6e;
+  --want: #ffd166;
+  color-scheme: dark;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+  line-height: 1.5;
+}
+
+.app {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem 1.25rem 4rem;
+}
+
+/* ---------- Header ---------- */
+.header {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.header h1 {
+  margin: 0;
+  font-size: clamp(1.8rem, 4vw, 2.6rem);
+  letter-spacing: -0.02em;
+}
+
+.flame {
+  filter: drop-shadow(0 0 12px rgba(255, 122, 26, 0.6));
+}
+
+.subtitle {
+  margin: 0.25rem 0 0;
+  color: var(--text-dim);
+}
+
+/* ---------- Stats ---------- */
+.stats {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin-bottom: 1.5rem;
+}
+
+.stat {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 0.75rem 1.5rem;
+  text-align: center;
+  min-width: 110px;
+}
+
+.stat-value {
+  display: block;
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: var(--fire-soft);
+}
+
+.stat-tengo .stat-value {
+  color: var(--owned);
+}
+
+.stat-quiero .stat-value {
+  color: var(--want);
+}
+
+.stat-label {
+  font-size: 0.8rem;
+  color: var(--text-dim);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+
+/* ---------- Filters ---------- */
+.filters {
+  display: flex;
+  gap: 0.6rem;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-bottom: 1.75rem;
+}
+
+.filter-search {
+  flex: 1 1 240px;
+}
+
+.filters input,
+.filters select {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  color: var(--text);
+  padding: 0.55rem 0.8rem;
+  font-size: 0.95rem;
+}
+
+.filters input:focus,
+.filters select:focus {
+  outline: 2px solid var(--fire);
+  outline-offset: 1px;
+}
+
+.result-count {
+  color: var(--text-dim);
+  font-size: 0.9rem;
+  margin-left: auto;
+}
+
+/* ---------- Grid ---------- */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(210px, 1fr));
+  gap: 1.1rem;
+}
+
+.empty {
+  text-align: center;
+  color: var(--text-dim);
+  padding: 3rem 0;
+}
+
+/* ---------- Card ---------- */
+.card {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.15s ease, border-color 0.15s ease, background 0.15s ease;
+}
+
+.card:hover {
+  transform: translateY(-3px);
+  border-color: var(--fire);
+  background: var(--bg-card-hover);
+}
+
+.card-owned {
+  border-color: rgba(76, 175, 110, 0.45);
+}
+
+.card-image-link {
+  display: block;
+  background: #0e0b09;
+  aspect-ratio: 5 / 7;
+}
+
+.card-image-link img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  display: block;
+}
+
+.card-placeholder {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+  opacity: 0.35;
+}
+
+.card-body {
+  padding: 0.8rem 0.9rem 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.45rem;
+  flex: 1;
+}
+
+.card-name {
+  margin: 0;
+  font-size: 1.02rem;
+  line-height: 1.25;
+}
+
+.card-set {
+  margin: 0;
+  font-size: 0.82rem;
+  color: var(--text-dim);
+}
+
+.card-code {
+  white-space: nowrap;
+}
+
+.card-langs {
+  display: flex;
+  gap: 0.3rem;
+  flex-wrap: wrap;
+  font-size: 1.05rem;
+}
+
+.flag {
+  opacity: 0.45;
+}
+
+.flag-owned {
+  opacity: 1;
+  filter: drop-shadow(0 0 4px rgba(76, 175, 110, 0.8));
+}
+
+.card-actions {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-top: auto;
+}
+
+.btn-tengo {
+  border: 1px solid var(--border);
+  background: transparent;
+  color: var(--text-dim);
+  border-radius: 8px;
+  padding: 0.35rem 0.7rem;
+  font-size: 0.82rem;
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+
+.btn-tengo:hover {
+  border-color: var(--owned);
+  color: var(--owned);
+}
+
+.btn-tengo.active {
+  background: rgba(76, 175, 110, 0.15);
+  border-color: var(--owned);
+  color: var(--owned);
+  font-weight: 600;
+}
+
+.badge-quiero {
+  font-size: 0.78rem;
+  color: var(--want);
+  white-space: nowrap;
+}
+
+.card-link {
+  font-size: 0.8rem;
+  color: var(--fire-soft);
+  text-decoration: none;
+}
+
+.card-link:hover {
+  text-decoration: underline;
+}
