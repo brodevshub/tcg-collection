@@ -129,8 +129,8 @@ body {
 /* ---------- Grid ---------- */
 .grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(210px, 1fr));
-  gap: 1.1rem;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 0.7rem;
 }
 
 .empty {
@@ -184,23 +184,24 @@ body {
 }
 
 .card-body {
-  padding: 0.8rem 0.9rem 1rem;
+  padding: 0.5rem 0.6rem 0.6rem;
   display: flex;
   flex-direction: column;
-  gap: 0.45rem;
+  gap: 0.25rem;
   flex: 1;
 }
 
 .card-name {
   margin: 0;
-  font-size: 1.02rem;
-  line-height: 1.25;
+  font-size: 0.86rem;
+  line-height: 1.2;
 }
 
 .card-set {
   margin: 0;
-  font-size: 0.82rem;
+  font-size: 0.7rem;
   color: var(--text-dim);
+  line-height: 1.3;
 }
 
 .card-code {
@@ -209,9 +210,9 @@ body {
 
 .card-langs {
   display: flex;
-  gap: 0.3rem;
+  gap: 0.25rem;
   flex-wrap: wrap;
-  font-size: 1.05rem;
+  font-size: 0.85rem;
 }
 
 .flag {
@@ -226,7 +227,7 @@ body {
 .card-actions {
   display: flex;
   align-items: center;
-  gap: 0.5rem;
+  gap: 0.4rem;
   margin-top: auto;
 }
 
@@ -234,9 +235,10 @@ body {
   border: 1px solid var(--border);
   background: transparent;
   color: var(--text-dim);
-  border-radius: 8px;
-  padding: 0.35rem 0.7rem;
-  font-size: 0.82rem;
+  border-radius: 6px;
+  padding: 0.2rem 0.45rem;
+  font-size: 0.7rem;
+  white-space: nowrap;
   cursor: pointer;
   transition: all 0.15s ease;
 }
@@ -254,13 +256,13 @@ body {
 }
 
 .badge-quiero {
-  font-size: 0.78rem;
+  font-size: 0.68rem;
   color: var(--want);
   white-space: nowrap;
 }
 
 .card-link {
-  font-size: 0.8rem;
+  font-size: 0.68rem;
   color: var(--fire-soft);
   text-decoration: none;
 }

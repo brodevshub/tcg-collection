@@ -56,9 +56,9 @@ export function CardItem({ card, onToggleTengo }: Props) {
             className={`btn-tengo ${card.laTengo ? 'active' : ''}`}
             onClick={() => onToggleTengo(card.id)}
           >
-            {card.laTengo ? '✓ La tengo' : 'No la tengo'}
+            {card.laTengo ? '✓ Tengo' : 'No tengo'}
           </button>
-          {card.laQuiero && <span className="badge-quiero">★ La quiero</span>}
+          {card.laQuiero && <span className="badge-quiero">★ Quiero</span>}
         </div>
         <a className="card-link" href={card.cardmarketUrl} target="_blank" rel="noopener noreferrer">
           Ver en Cardmarket ↗
