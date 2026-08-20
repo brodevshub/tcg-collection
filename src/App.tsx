@@ -28,6 +28,7 @@ export default function App() {
     pokemon: 'all',
     estado: 'all',
     idioma: 'all',
+    sort: 'orden-desc',
   })
 
   const idiomas = useMemo(() => {
@@ -40,7 +41,7 @@ export default function App() {
 
   const filtered = useMemo(() => {
     const q = filters.search.trim().toLowerCase()
-    return cards.filter((card) => {
+    const result = cards.filter((card) => {
       if (filters.pokemon !== 'all' && card.pokemon !== filters.pokemon) return false
       if (filters.estado === 'tengo' && !card.laTengo) return false
       if (filters.estado === 'quiero' && !card.laQuiero) return false
@@ -51,6 +52,20 @@ export default function App() {
       }
       return true
     })
+    // Las cartas sin precio van siempre al final al ordenar por precio
+    result.sort((a, b) => {
+      switch (filters.sort) {
+        case 'orden-asc':
+          return a.orden - b.orden
+        case 'precio-desc':
+          return (b.precioMin ?? -Infinity) - (a.precioMin ?? -Infinity)
+        case 'precio-asc':
+          return (a.precioMin ?? Infinity) - (b.precioMin ?? Infinity)
+        default:
+          return b.orden - a.orden
+      }
+    })
+    return result
   }, [cards, filters])
 
   async function persist(url: string, payload: object, previous: Card[]) {

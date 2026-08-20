@@ -16,9 +16,12 @@ export interface Card {
   precioMin?: number | null
 }
 
+export type SortMode = 'orden-desc' | 'orden-asc' | 'precio-desc' | 'precio-asc'
+
 export interface FiltersState {
   search: string
   pokemon: 'all' | 'Charmander' | 'Charmeleon'
   estado: 'all' | 'tengo' | 'quiero'
   idioma: string
+  sort: SortMode
 }

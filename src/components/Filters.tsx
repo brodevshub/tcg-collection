@@ -41,6 +41,15 @@ export function Filters({ filters, onChange, idiomas, resultCount }: Props) {
           </option>
         ))}
       </select>
+      <select
+        value={filters.sort}
+        onChange={(e) => onChange({ ...filters, sort: e.target.value as FiltersState['sort'] })}
+      >
+        <option value="orden-desc">Más nuevas primero</option>
+        <option value="orden-asc">Más antiguas primero</option>
+        <option value="precio-asc">Precio: menor a mayor</option>
+        <option value="precio-desc">Precio: mayor a menor</option>
+      </select>
       <span className="result-count">
         {resultCount} {resultCount === 1 ? 'carta' : 'cartas'}
       </span>

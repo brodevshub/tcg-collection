@@ -7,13 +7,15 @@
     "coleccion": "MEP Black Star Promos",
     "codigo": "MEP",
     "numero": "79",
-    "laTengo": false,
+    "laTengo": true,
     "laQuiero": true,
     "idiomasDisponibles": [
       "🇬🇧",
       "🇪🇸"
     ],
-    "idiomasQueTengo": [],
+    "idiomasQueTengo": [
+      "🇪🇸"
+    ],
     "cardmarketUrl": "https://www.cardmarket.com/es/Pokemon/Products/Singles/MEP-Black-Star-Promos/Charmeleon-MEP079",
     "precioMin": 0.2
   },
