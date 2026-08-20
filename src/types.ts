@@ -11,9 +11,8 @@ export interface Card {
   idiomasDisponibles: string[]
   idiomasQueTengo: string[]
   cardmarketUrl: string
-  // Precio más bajo en Cardmarket (EUR) con estado mínimo Excellent,
-  // vendedores de reputación "muy buena" o mejor y los idiomas disponibles.
-  // null = sin ofertas con esos filtros.
+  // Precio más bajo en Cardmarket (EUR) con estado mínimo Excellent y los
+  // idiomas disponibles. null = sin ofertas con esos filtros.
   precioMin?: number | null
 }
 
