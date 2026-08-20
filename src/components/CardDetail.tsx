@@ -1,6 +1,26 @@
 import { useEffect, useState } from 'react'
 import type { Card } from '../types'
 
+// IDs de idioma del filtro de Cardmarket (?language=1,4 = inglés + español)
+const CARDMARKET_LANG_IDS: Record<string, string> = {
+  '🇬🇧': '1',
+  '🇫🇷': '2',
+  '🇪🇸': '4',
+  '🇨🇳': '6',
+  '🇯🇵': '7',
+  '🇰🇷': '10',
+  '🇹🇼': '11',
+  '🇮🇩': '16',
+  '🇹🇭': '17',
+}
+
+function cardmarketLink(card: Card): string {
+  const ids = card.idiomasDisponibles
+    .map((flag) => CARDMARKET_LANG_IDS[flag])
+    .filter(Boolean)
+  return ids.length ? `${card.cardmarketUrl}?language=${ids.join(',')}` : card.cardmarketUrl
+}
+
 interface Props {
   card: Card
   onClose: () => void
@@ -87,7 +107,7 @@ export function CardDetail({ card, onClose, onToggleTengo }: Props) {
           >
             {card.laTengo ? '✓ La tengo' : 'No la tengo'}
           </button>
-          <a className="aside-link" href={card.cardmarketUrl} target="_blank" rel="noopener noreferrer">
+          <a className="aside-link" href={cardmarketLink(card)} target="_blank" rel="noopener noreferrer">
             Ver en Cardmarket ↗
           </a>
         </div>
